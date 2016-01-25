@@ -1,0 +1,9 @@
+site_name: Developer tourguide
+site_description: Developer tour guide test
+docs_dir: ./
+pages:
+  - Home: index.md
+  - 'Connection to the Internet of Things':
+      - 'Connection to the Internet of Things': '02_iot/Connection to the Internet of Things.md'
+      - 'Reading data from IoT devices': '02_iot/Connection to the Internet of Things.md'
+      - 'Acting upon IoT devices': '02_iot/Acting upon IoT devices.md'
