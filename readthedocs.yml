@@ -1,6 +1,6 @@
 site_name: Developer tourguide
 site_description: Developer tour guide test
-docs_dir: ./
+docs_dir: /doc
 pages:
   - Home: index.md
   - 'Connection to the Internet of Things':
