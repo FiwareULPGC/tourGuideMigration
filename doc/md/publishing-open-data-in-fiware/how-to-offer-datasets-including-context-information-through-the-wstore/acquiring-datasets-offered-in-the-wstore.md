@@ -1,6 +1,6 @@
 Customers can access the FIWARE Store to acquire one or more datasets.
 To do so, they have to enter the
-[Store](https://account.lab.fiware.org/users/sign_in)and look for
+[Store](https://account.lab.fiware.org/users/sign_in) and look for
 datasets in the “Data” section. This section can be found in the left
 side bar.
 
