@@ -52,14 +52,15 @@ def change_base_uri(original_prefix, new_prefix, filename):
 	    content = myfile.read()
 	   
 	    n_content = re.sub(original_prefix, new_prefix, content)
+
+	    n_content = n_content.replace("(/markdown-conversion/development-context-aware-applications/)",
+	    							  "(/development-context-aware-applications/development-context-aware-applications/)")
+
 	    n_content = n_content.replace("(/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/)",
 	    							  "(/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/)")
 
-	    n_content = n_content.replace("(http://tourguidemigration.readthedocs.org/en/markdown-conversion/development-context-aware-applications/)",
-	    							  "(http://tourguidemigration.readthedocs.org/en/markdown-conversion/development-context-aware-applications/development-context-aware-applications/)")
-
-	    n_content = n_content.replace("(http://tourguidemigration.readthedocs.org/en/markdown-conversion/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/)",
-	    							  "(http://tourguidemigration.readthedocs.org/en/markdown-conversion/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/how-to-offer-datasets-including-context-information-through-the-wstore/)")
+	    n_content = n_content.replace("(/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/)",
+	    							  "(/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/how-to-offer-datasets-including-context-information-through-the-wstore/)")
 
 	output = open(filename,'w')
 	output.write(n_content)
