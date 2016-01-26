@@ -2,10 +2,11 @@ The first step to start managing authorization in your application is to
 register the application in FIWARE Account. In order to do that you have
 to click on “Register” option of the Account Portal
 
-[![HowToImplementOAuth2InYourApplication1](/uploads/2015/04/HowToImplementOAuth2InYourApplication1.png)](/uploads/2015/04/HowToImplementOAuth2InYourApplication1.png)Then
-follow the steps with the data of your application. Once registered, you
-have to implement OAuth2 protocol in your application. The message flow
-between your web application and IDM account server should be:
+[![HowToImplementOAuth2InYourApplication1](/uploads/2015/04/HowToImplementOAuth2InYourApplication1.png)](/uploads/2015/04/HowToImplementOAuth2InYourApplication1.png)  
+Then follow the steps with the data of your application. Once
+registered, you have to implement OAuth2 protocol in your application.
+The message flow between your web application and IDM account server
+should be:
 
 [![5](/uploads/2014/11/5.png)](/uploads/2014/11/5.png)
 

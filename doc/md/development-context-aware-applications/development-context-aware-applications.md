@@ -10,8 +10,8 @@ Orion)](http://catalogue.fiware.org/enablers/publishsubscribe-context-broker-ori
 is able to handle context information at large scale by implementing
 standard REST APIs. 
 
-[![1](/uploads/2014/11/1.png)](/uploads/2014/11/1.png)Context
-information may come from many different sources:
+[![1](/uploads/2014/11/1.png)](/uploads/2014/11/1.png)  
+Context information may come from many different sources:
 
 -   Already existing systems
 -   Users, through mobile apps
