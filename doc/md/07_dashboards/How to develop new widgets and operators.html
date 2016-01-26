@@ -1,0 +1,47 @@
+<p>
+Widgets can be split up into three different components:
+</p>
+
+<ul>
+<li>
+Descriptor (config.xml), which is a declarative description of the widget. This file contains, among other things, references to the rest of resources of a widget.
+</li>
+<li>
+<span style="line-height: 1.6em;">Code, composed of HTML, JavaScript and CSS files containing the definition and the behaviour of the widget.</span>
+</li>
+<li>
+<span style="line-height: 1.6em;">Static resources, such as images, documentation and other static resources.</span>
+</li>
+</ul>
+
+<p>
+The following figure shows the structure of files for a widget, which is distributed as a zip package of such structure with .wgt extension.
+</p>
+
+<p>
+<a href="http://www.fiware.org/wp-content/uploads/2015/04/How-to-develop-new-widgets-and-operators.png"><img alt="How to develop new widgets and operators" class="aligncenter size-full wp-image-37506" height="214" src="http://www.fiware.org/wp-content/uploads/2015/04/How-to-develop-new-widgets-and-operators.png" width="211" /></a>
+</p>
+
+<p>
+There are three types of operators:
+</p>
+
+<ul>
+<li>
+Data sources operators: Operators that provide information that can be consumed by other widgets/operators. For example, an operator that retrieves some type of information from a web service.
+</li>
+<li>
+<span style="line-height: 1.6em;">Data targets operators: Operators that are provided information and use it to do some tasks. For example, an operator that receives some information and push it to a web service.</span>
+</li>
+<li>
+<span style="line-height: 1.6em;">Data transformation operators: This type of operators can be very useful since they can transform data in order to make it usable by widgets or operators that expect data structure to be slightly different.</span>
+</li>
+</ul>
+
+<p>
+Operators use the same structure as widgets. The only difference is that the descriptor file (config.xml) does not link to an initial HTML document. Instead, it directly links to the list of javascript files. &nbsp;
+</p>
+
+<p>
+&nbsp;
+</p>

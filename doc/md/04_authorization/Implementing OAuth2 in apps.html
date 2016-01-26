@@ -1,0 +1,34 @@
+<p>
+The first step to start managing authorization in your application is to register the application in FIWARE Account. In order to do that you have to click on &ldquo;Register&rdquo; option of the Account Portal
+</p>
+
+<p>
+<a href="http://www.fiware.org/wp-content/uploads/2015/04/HowToImplementOAuth2InYourApplication1.png"><img alt="HowToImplementOAuth2InYourApplication1" class="aligncenter size-full wp-image-37423" height="330" src="http://www.fiware.org/wp-content/uploads/2015/04/HowToImplementOAuth2InYourApplication1.png" width="600" /></a>Then follow the steps with the data of your application. Once registered, you have to implement OAuth2 protocol in your application. The message flow between your web application and IDM account server should be:
+</p>
+
+<p>
+<a href="http://www.fiware.org/wp-content/uploads/2014/11/5.png"><img alt="5" class="aligncenter size-full wp-image-37956" height="197" src="http://www.fiware.org/wp-content/uploads/2014/11/5.png" width="640" /></a>
+</p>
+
+<p>
+In order to implement this flow you can use an OAuth2 library. <a href="http://oauth.net/2/">Here </a>you will find implementations for PHP, Cocoa, iOS, Java, Ruby, Javascript, Python &hellip; We have developed a Node.js <a href="https://github.com/ging/fi-ware-pep-proxy">example </a>that you can download and test following these instructions:
+</p>
+
+<p>
+1. Software requirements:<br />
+nodejs<br />
+npm
+</p>
+
+<p>
+2. Install the dependencies:<br />
+npm install
+</p>
+
+<p>
+3. Configure OAuth2 credentials (ClientID and Client Secret) in config.js file. You will find them in your IDM account:
+</p>
+
+<p>
+<a href="http://www.fiware.org/wp-content/uploads/2015/04/HowToImplementOAuth2InYourApplication4.png"><img alt="HowToImplementOAuth2InYourApplication4" class="aligncenter size-large wp-image-37425" height="357" src="http://www.fiware.org/wp-content/uploads/2015/04/HowToImplementOAuth2InYourApplication4-1024x526.png" width="695" /></a>
+</p>
