@@ -3,71 +3,71 @@ site_description: Developer tour guide test
 docs_dir: doc/md/
 pages:
   - Home: index.md
-#  - 'Development of context-aware applications':
-#      - 'Development of context-aware applications': '01_context/Development of context-aware applications.html'
-#      - 'Update – query context': '01_context/Update – query context.html'
-#      - 'Connection to context providers': '01_context/Connection to context providers.html'
-#      - 'Subscription to context changes': '01_context/Subscription to context changes.html'
-#      - 'Geolocated context queries': '01_context/Geolocated context queries.html'
+  - 'Development of context-aware applications':
+      - 'Development of context-aware applications': '01_context/Development of context-aware applications.html'
+      - 'Update – query context': '01_context/Update – query context.html'
+      - 'Connection to context providers': '01_context/Connection to context providers.html'
+      - 'Subscription to context changes': '01_context/Subscription to context changes.html'
+      - 'Geolocated context queries': '01_context/Geolocated context queries.html'
   - 'Connection to the Internet of Things':
      - 'Connection to the Internet of Things': '02_iot/Connection to the Internet of Things.md'
      - 'Reading data from IoT devices': '02_iot/Connection to the Internet of Things.md'
      - 'Acting upon IoT devices': '02_iot/Acting upon IoT devices.md'
-#  - 'Real-time processing of context events':
-#     - 'Real-time processing of context events': '03_real_time_context/Real-time processing of context events.html'
-#     - 'How to define a CEP application': '03_real_time_context/How to define a CEP application.html'
-#     - 'How to administrate the CEP': '03_real_time_context/How to administrate the CEP.html'
-#     - 'How to send input events to the CEP': '03_real_time_context/How to send input events to the CEP.html'
-#  - 'Handling authorization and access control to APIs':
-#     - 'Handling authorization and access control to APIs': '04_authorization/Handling authorization and access control to APIs.html'
-#     - 'Creating your identity in FIWARE': '04_authorization/Creating your identity in FIWARE.html'
-#     - 'Implementing OAuth2 in apps': '04_authorization/Implementing OAuth2 in apps.html'
-#     - 'How to send requests to a FIWARE GE': '04_authorization/How to send requests to a FIWARE GE.html'
-#     - 'How to secure your backend service': '04_authorization/How to secure your backend service.html'
-#     - 'How to manage Access Control in FIWARE': '04_authorization/How to manage Access Control in FIWARE.html'
-#     - 'References': '04_authorization/References.html'
-#  - 'Publishing (Open) Data in FIWARE':
-#     - 'Publishing (Open) Data in FIWARE': '05_open_data/Publishing (Open) Data in FIWARE.html'
-#     - 'How to Publish (Open) Datasets in CKAN': '05_open_data/How to Publish (Open) Datasets in CKAN.html'
-#     - 'How to Publish Context Information as (Open) Data in CKAN': '05_open_data/How to Publish Context Information as (Open) Data in CKAN.html'
-#     - 'How to Offer Datasets (including Context Information) through the WStore':
-#       - 'How to Offer Datasets (including Context Information) through the WStore': '05_open_data/How to Offer Datasets (including Context Information) through the WStore.html'
-#       - 'Offering Datasets Directly Through the CKAN Interface': '05_open_data/Offering Datasets Directly Through the CKAN Interface.html'
-#       - 'Offering Datasets Through the WStore interface': '05_open_data/Offering Datasets Through the WStore interface.html'
-#       - 'Acquiring Datasets Offered in the WStore': '05_open_data/Acquiring Datasets Offered in the WStore.html'
-#  - 'Big Data analysis of historic context information':
-#     - 'Big Data analysis of historic context information': '06_big-data/Big Data analysis of historic context information.html'
-#  - 'Creating application dashboards':
-#     - 'Creating application dashboards': '07_dashboards/Creating application dashboards.html'
-#     - 'How to find widgets and other components for your dashboard': '07_dashboards/How to find widgets and other components for your dashboard.html'
-#     - 'How to create your application dashboard from these building blocks': '07_dashboards/How to create your application dashboard from these building blocks.html'
-#     - 'How to interconnect widgets and connect them to backend resources': '07_dashboards/How to interconnect widgets and connect them to backend resources.html'
-#     - 'How to share, sell or make available your new dashboard': '07_dashboards/How to share, sell or make available your new dashboard.html'
-#     - 'How to develop new widgets and operators': '07_dashboards/How to develop new widgets and operators.html'
-#     - 'How to make AJAX requests to external services': '07_dashboards/How to make AJAX requests to external services.html'
-#     - 'How to receive events': '07_dashboards/How to receive events.html'
-#     - 'How to send events': '07_dashboards/How to send events.html'
-#     - 'How to use other FIWARE GEs from your widgets and operators': '07_dashboards/How to use other FIWARE GEs from your widgets and operators.html'
-#  - 'Real-time processing of media streams':
-#     - 'Real-time processing of media streams': '08_real_time_media/Real-time processing of media streams.html'
-#     - 'What is WebRTC and what is a media server': '08_real_time_media/What is WebRTC and what is a media server.html'
-#     - 'What is the architecture of a Kurento enabled application': '08_real_time_media/What is the architecture of a Kurento enabled application.html'
-#     - 'How to develop a Kurento enabled application': '08_real_time_media/How to develop a Kurento enabled application.html'
-#  - 'Providing an advanced User Experience (UX)':
-#     - 'Providing an advanced User Experience (UX)': '09_advanced_ux/Providing an advanced User Experience (UX).html'
-#     - '3D-UI: Interactive 3D graphics and Augmented Reality in any Web browser': '09_advanced_ux/3D-UI: Interactive 3D graphics and Augmented Reality in any Web browser.html'
-#     - 'XML3D: Interactive 3D graphics and Augmented Reality via DOM extensions':
-#       - 'XML3D: Interactive 3D graphics and Augmented Reality via DOM extensions': '09_advanced_ux/XML3D: Interactive 3D graphics and Augmented Reality via DOM extensions.html'
-#       - 'How to set up a first XML3D scene': '09_advanced_ux/How to set up a first XML3D scene.html'
-#       - 'How to use Xflow for AR applications with XML3D and the Augmented Reality GE': '09_advanced_ux/How to use Xflow for AR applications with XML3D and the Augmented Reality GE.html'
-#     - '3D graphics on the Web with Three.js': '09_advanced_ux/3D graphics on the Web with Three.js.html'
-#     - 'Multiuser 3D with WebTundra (Games, Virtual Worlds, Collaborative applications)': '09_advanced_ux/Multiuser 3D with WebTundra (Games, Virtual Worlds, Collaborative applications).html'
-#  - 'Hosting your application on a FIWARE Cloud':
-#     - 'Hosting your application on a FIWARE Cloud': '10_cloud/Hosting your application on a FIWARE Cloud.html'
-#     - 'How to provision and manage your virtual infrastructure on FIWARE Cloud': '10_cloud/How to provision and manage your virtual infrastructure on FIWARE Cloud.html'
-#     - 'How to use Object Storage capabilities of FIWARE Cloud': '10_cloud/How to use Object Storage capabilities of FIWARE Cloud.html'
-#     - 'How to use Blueprints to manage complex applications hosted on FIWARE Cloud': '10_cloud/How to use Blueprints to manage complex applications hosted on FIWARE Cloud.html'
-#     - 'How to invoke FIWARE Cloud capabilities via an API': '10_cloud/How to invoke FIWARE Cloud capabilities via an API.html'
-#  - 'FIWARE Tour Guide Application. A tutorial on how to integrate the main FIWARE GEs':
-#     - 'FIWARE Tour Guide Application. A tutorial on how to integrate the main FIWARE GEs': '11_tour_guide_app/FIWARE Tour Guide Application. A tutorial on how to integrate the main FIWARE GEs.html'
+  - 'Real-time processing of context events':
+     - 'Real-time processing of context events': '03_real_time_context/Real-time processing of context events.html'
+     - 'How to define a CEP application': '03_real_time_context/How to define a CEP application.html'
+     - 'How to administrate the CEP': '03_real_time_context/How to administrate the CEP.html'
+     - 'How to send input events to the CEP': '03_real_time_context/How to send input events to the CEP.html'
+  - 'Handling authorization and access control to APIs':
+     - 'Handling authorization and access control to APIs': '04_authorization/Handling authorization and access control to APIs.html'
+     - 'Creating your identity in FIWARE': '04_authorization/Creating your identity in FIWARE.html'
+     - 'Implementing OAuth2 in apps': '04_authorization/Implementing OAuth2 in apps.html'
+     - 'How to send requests to a FIWARE GE': '04_authorization/How to send requests to a FIWARE GE.html'
+     - 'How to secure your backend service': '04_authorization/How to secure your backend service.html'
+     - 'How to manage Access Control in FIWARE': '04_authorization/How to manage Access Control in FIWARE.html'
+     - 'References': '04_authorization/References.html'
+  - 'Publishing (Open) Data in FIWARE':
+     - 'Publishing (Open) Data in FIWARE': '05_open_data/Publishing (Open) Data in FIWARE.html'
+     - 'How to Publish (Open) Datasets in CKAN': '05_open_data/How to Publish (Open) Datasets in CKAN.html'
+     - 'How to Publish Context Information as (Open) Data in CKAN': '05_open_data/How to Publish Context Information as (Open) Data in CKAN.html'
+     - 'How to Offer Datasets (including Context Information) through the WStore':
+       - 'How to Offer Datasets (including Context Information) through the WStore': '05_open_data/How to Offer Datasets (including Context Information) through the WStore.html'
+       - 'Offering Datasets Directly Through the CKAN Interface': '05_open_data/Offering Datasets Directly Through the CKAN Interface.html'
+       - 'Offering Datasets Through the WStore interface': '05_open_data/Offering Datasets Through the WStore interface.html'
+       - 'Acquiring Datasets Offered in the WStore': '05_open_data/Acquiring Datasets Offered in the WStore.html'
+  - 'Big Data analysis of historic context information':
+     - 'Big Data analysis of historic context information': '06_big-data/Big Data analysis of historic context information.html'
+  - 'Creating application dashboards':
+     - 'Creating application dashboards': '07_dashboards/Creating application dashboards.html'
+     - 'How to find widgets and other components for your dashboard': '07_dashboards/How to find widgets and other components for your dashboard.html'
+     - 'How to create your application dashboard from these building blocks': '07_dashboards/How to create your application dashboard from these building blocks.html'
+     - 'How to interconnect widgets and connect them to backend resources': '07_dashboards/How to interconnect widgets and connect them to backend resources.html'
+     - 'How to share, sell or make available your new dashboard': '07_dashboards/How to share, sell or make available your new dashboard.html'
+     - 'How to develop new widgets and operators': '07_dashboards/How to develop new widgets and operators.html'
+     - 'How to make AJAX requests to external services': '07_dashboards/How to make AJAX requests to external services.html'
+     - 'How to receive events': '07_dashboards/How to receive events.html'
+     - 'How to send events': '07_dashboards/How to send events.html'
+     - 'How to use other FIWARE GEs from your widgets and operators': '07_dashboards/How to use other FIWARE GEs from your widgets and operators.html'
+  - 'Real-time processing of media streams':
+     - 'Real-time processing of media streams': '08_real_time_media/Real-time processing of media streams.html'
+     - 'What´s WebRTC and what´s a media server': '08_real_time_media/What is WebRTC and what is a media server.html'
+     - 'What´s the architecture of a Kurento enabled application': '08_real_time_media/What is the architecture of a Kurento enabled application.html'
+     - 'How to develop a Kurento enabled application': '08_real_time_media/How to develop a Kurento enabled application.html'
+  - 'Providing an advanced User Experience (UX)':
+     - 'Providing an advanced User Experience (UX)': '09_advanced_ux/Providing an advanced User Experience (UX).html'
+     - '3D-UI: Interactive 3D graphics and Augmented Reality in any Web browser': '09_advanced_ux/3D-UI: Interactive 3D graphics and Augmented Reality in any Web browser.html'
+     - 'XML3D: Interactive 3D graphics and Augmented Reality via DOM extensions':
+       - 'XML3D: Interactive 3D graphics and Augmented Reality via DOM extensions': '09_advanced_ux/XML3D: Interactive 3D graphics and Augmented Reality via DOM extensions.html'
+       - 'How to set up a first XML3D scene': '09_advanced_ux/How to set up a first XML3D scene.html'
+       - 'How to use Xflow for AR applications with XML3D and the Augmented Reality GE': '09_advanced_ux/How to use Xflow for AR applications with XML3D and the Augmented Reality GE.html'
+     - '3D graphics on the Web with Three.js': '09_advanced_ux/3D graphics on the Web with Three.js.html'
+     - 'Multiuser 3D with WebTundra (Games, Virtual Worlds, Collaborative applications)': '09_advanced_ux/Multiuser 3D with WebTundra (Games, Virtual Worlds, Collaborative applications).html'
+  - 'Hosting your application on a FIWARE Cloud':
+     - 'Hosting your application on a FIWARE Cloud': '10_cloud/Hosting your application on a FIWARE Cloud.html'
+     - 'How to provision and manage your virtual infrastructure on FIWARE Cloud': '10_cloud/How to provision and manage your virtual infrastructure on FIWARE Cloud.html'
+     - 'How to use Object Storage capabilities of FIWARE Cloud': '10_cloud/How to use Object Storage capabilities of FIWARE Cloud.html'
+     - 'How to use Blueprints to manage complex applications hosted on FIWARE Cloud': '10_cloud/How to use Blueprints to manage complex applications hosted on FIWARE Cloud.html'
+     - 'How to invoke FIWARE Cloud capabilities via an API': '10_cloud/How to invoke FIWARE Cloud capabilities via an API.html'
+  - 'FIWARE Tour Guide Application. A tutorial on how to integrate the main FIWARE GEs':
+     - 'FIWARE Tour Guide Application. A tutorial on how to integrate the main FIWARE GEs': '11_tour_guide_app/FIWARE Tour Guide Application. A tutorial on how to integrate the main FIWARE GEs.html'
 
