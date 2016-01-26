@@ -21,7 +21,7 @@ The following diagram illustrates Advanced Web UI architecture and its
 GEs.
 
 [![Advanced user
-experience](http://www.fiware.org/wp-content/uploads/2015/04/Advanced-user-experience-1024x549.png)](http://www.fiware.org/wp-content/uploads/2015/04/Advanced-user-experience.png)
+experience](uploads/2015/04/Advanced-user-experience-1024x549.png)](uploads/2015/04/Advanced-user-experience.png)
 
 The diagram shows how all the GEs from the WebUI chapter fit and can be
 used together.
