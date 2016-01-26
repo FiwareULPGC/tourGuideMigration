@@ -3,8 +3,7 @@ site_description: Developer tour guide test
 docs_dir: doc/md/
 pages:
   - Home: index.md
-  - 'Development of context-aware applications':
-      - 'Development of context-aware applications': '01_context/Development of context-aware applications.md'
+  - 'Development of context-aware applications': '01_context/Development of context-aware applications.md'
       - 'Update – query context': '01_context/Update - query context.md'
       - 'Connection to context providers': '01_context/Connection to context providers.md'
       - 'Subscription to context changes': '01_context/Subscription to context changes.md'
@@ -35,8 +34,7 @@ pages:
        - 'Offering Datasets Directly Through the CKAN Interface': '05_open_data/Offering Datasets Directly Through the CKAN Interface.md'
        - 'Offering Datasets Through the WStore interface': '05_open_data/Offering Datasets Through the WStore interface.md'
        - 'Acquiring Datasets Offered in the WStore': '05_open_data/Acquiring Datasets Offered in the WStore.md'
-  - 'Big Data analysis of historic context information':
-     - 'Big Data analysis of historic context information': '06_big_data/Big Data analysis of historic context information.md'
+  - 'Big Data analysis of historic context information': '06_big_data/Big Data analysis of historic context information.md'
   - 'Creating application dashboards':
      - 'Creating application dashboards': '07_dashboards/Creating application dashboards.md'
      - 'How to find widgets and other components for your dashboard': '07_dashboards/How to find widgets and other components for your dashboard.md'
