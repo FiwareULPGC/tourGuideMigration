@@ -13,9 +13,3 @@ pages:
      - 'Connection to the Internet of Things': '02_iot/Connection to the Internet of Things.md'
      - 'Reading data from IoT devices': '02_iot/Connection to the Internet of Things.md'
      - 'Acting upon IoT devices': '02_iot/Acting upon IoT devices.md'
-  - 'Real-time processing of context events':
-     - 'Real-time processing of context events': '03_real_time_context/Real-time processing of context events.html'
-     - 'How to define a CEP application': '03_real_time_context/How to define a CEP application.html'
-     - 'How to administrate the CEP': '03_real_time_context/How to administrate the CEP.html'
-     - 'How to send input events to the CEP': '03_real_time_context/How to send input events to the CEP.html'
-
