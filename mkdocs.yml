@@ -5,4 +5,4 @@ pages:
   - Home: index.md
   - 'Development of context-aware applications':
       - 'Development of context-aware applications': '01_context/Development of context-aware applications.html'
-
+      - 'Update – query context': '01_context/Update – query context.html'
