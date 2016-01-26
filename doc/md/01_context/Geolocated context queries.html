@@ -1,0 +1,33 @@
+<p>
+One very powerful feature in Context Broker GE is the ability to perform geo-located queries. You can query entities located inside (or outside) a region defined by a circle or a polygon.<br />
+For example, to query for all the restaurants within 13 km of the Madrid city center (identified by GPS coordinates 40.418889, -3.691944) a Context Consumer application will use the following query:
+</p>
+
+<div class="dev">
+<pre class="prettyprint">
+<code>POST &lt;cb_host&gt;:&lt;cb_port&gt;/v1/queryContext
+{
+    &quot;entities&quot;: [
+        {
+            &quot;type&quot;: &quot;Restaurant&quot;,
+            &quot;isPattern&quot;: &quot;true&quot;,
+            &quot;id&quot;: &quot;.*&quot;
+        }
+    ],
+    &quot;restriction&quot;: {
+        &quot;scopes&quot;: [
+            {
+                &quot;type&quot;: &quot;FIWARE::Location&quot;,
+                &quot;value&quot;: {
+                    &quot;circle&quot;: {
+                        &quot;centerLatitude&quot;: &quot;40.418889&quot;,
+                        &quot;centerLongitude&quot;: &quot;-3.691944&quot;,
+                        &quot;radius&quot;: &quot;13000&quot;
+                    }
+                }
+            }
+        ]
+    }
+}</code>
+</pre>
+</div>

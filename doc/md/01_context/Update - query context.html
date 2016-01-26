@@ -1,0 +1,169 @@
+<p>
+Processes running as part of your application architecture that update context information using REST operations that the Context Broker GE exports, are said to play a <strong>Context Producer</strong> role. &nbsp;As an example, let&rsquo;s consider an application for rating restaurants (let&rsquo;s call it NiceEating). The client part of that application running on the smartphone of users would play the role of Context Producer, enabling them to rate restaurants.
+</p>
+
+<p>
+On the other hand, processes running as part of your application architecture that query context information using REST operations that the Context Broker GE exports are said to play a <strong>Context Consumer</strong> role. &nbsp;Continuing with our NiceEating app, the mobile application running on the smartphone of users and enabling them to query for the rating of restaurants would play the role of Context Consumer. &nbsp;Note that a given part of your application may play both the Context Producer and Context Consumer roles. &nbsp;This would be the case of the mobile client of the NiceEating app enabling end users to rate, and query about rates of, restaurants.
+</p>
+
+<p>
+Entities that would be relevant to the NiceEating application are of type Restaurant, Client and Rating. For example, when a given user scores a restaurant (e.g. in a scale from 0 to 5, &ldquo;Client1234&rdquo; scores &ldquo;4&rdquo; for the &ldquo;LeBistro&rdquo; restaurant) the smartphone application plays the Context Producer role <strong>creating </strong>a Rating entity by issuing the following HTTP request :
+</p>
+
+<div class="dev">
+<pre class="prettyprint">
+<code>POST &lt;cb_host&gt;:&lt;cb_port&gt;/v1/contextEntities/type/Rating/id/LeBistro::Client1234
+{
+  &quot;attributes&quot; : [{
+      &quot;name&quot; : &quot;score&quot;,
+      &quot;type&quot; : &quot;integer&quot;,
+      &quot;value&quot; : &quot;4&quot;
+    }
+  ]
+}</code></pre>
+</div>
+
+<p>
+Each time a new Rating entity is created, the average rating for the corresponding restaurant is recalculated by the application backend which (playing also the role of Context Producer) <strong>updates </strong>the Restaurant entity accordingly:
+</p>
+
+<div class="dev">
+<pre class="prettyprint">
+<code>PUT &lt;cb_host&gt;:&lt;cb_port&gt;/v1/contextEntities/type/Restaurant/id/LeBistro/attributes/average_scoring</code>
+<code>{
+   &quot;value&quot; : &quot;4.2&quot;
+}</code>
+</pre>
+</div>
+
+<p>
+Finally, the user can get the information of a given Restaurant using the smartphone application. In that case the application works as Context Consumer, <strong>querying </strong>the Restaurant entity. For example, to get the average_scoring attribute, the client application could query for it in the following way:
+</p>
+
+<div class="dev">
+<pre class="prettyprint">
+<code>GET &lt;cb_host&gt;:&lt;cb_port&gt;/v1/contextEntities/type/Restaurant/id/LeBistro/attributes/average_scoring
+//getting a JSON response such as the following one:
+{
+  &quot;attributes&quot; : [
+  {
+    &quot;name&quot;: &quot;average_scoring&quot;,
+    &quot;type&quot;: &quot;float&quot;,
+    &quot;value&quot;: &quot;3.2&quot;
+  }
+  ],
+  &quot;statusCode&quot; : {
+    &quot;code&quot; : &quot;200&quot;,
+    &quot;reasonPhrase&quot; : &quot;OK&quot;
+  }
+} </code>
+</pre>
+</div>
+
+<p>
+You can also obtain the values of all attributes of the &quot;LeBistro&quot; restaurant in a single shot:
+</p>
+
+<div class="dev">
+<pre class="prettyprint">
+<code>GET &lt;cb_host&gt;:&lt;cb_port&gt;/v1/contextEntities/type/Restaurant/id/LeBistro
+
+//getting a JSON response such as the following one:
+
+{
+  &quot;contextElement&quot;: {
+    &quot;attributes&quot;: [
+    {
+      &quot;name&quot;: &quot;name&quot;,
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;value&quot;: &quot;Le Bistro&quot;
+    },
+    {
+      &quot;name&quot;: &quot;average_scoring&quot;,
+      &quot;type&quot;: &quot;float&quot;,
+      &quot;value&quot;: &quot;4.2&quot;
+    },
+    {
+      &quot;name&quot;: &quot;location&quot;,
+      &quot;type&quot;: &quot;location&quot;,
+      &quot;value&quot;: &quot;40.419697, -3.691281&quot;,
+      &quot;metadatas&quot;: [
+      {
+        &quot;name&quot;: &quot;location&quot;,
+        &quot;type&quot;: &quot;string&quot;,
+        &quot;value&quot;: &quot;WGS84&quot;
+      }
+    },
+    {
+      &quot;name&quot;: &quot;postal_address&quot;,
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;value&quot;: &quot;Calle Alcala 57, 28028 Madrid, Spain&quot;
+    },
+    {
+      &quot;name&quot;: &quot;cousine_type&quot;,
+      &quot;type&quot;: &quot;string&quot;,
+      &quot;value&quot;: &quot;french&quot;
+    }
+    ],
+    &quot;id&quot;: &quot;LeBistro&quot;,
+    &quot;isPattern&quot;: &quot;false&quot;,
+    &quot;type&quot;: &quot;Restaurant&quot;
+  },
+  &quot;statusCode&quot;: {
+    &quot;code&quot;: &quot;200&quot;,
+    &quot;reasonPhrase&quot;: &quot;OK&quot;
+  }
+}</code>
+</pre>
+</div>
+
+<p>
+Alternatively, if you want to get the <strong>attributes as a key map instead of as a vector</strong>, you can use the attributesFormat parameter, in the following way
+</p>
+
+<div class="dev">
+<pre class="prettyprint">
+<code>GET &lt;cb_host&gt;:&lt;cb_port&gt;/v1/contextEntities/type/Restaurant/id/LeBistro?attributesFormat=object
+
+//getting a JSON response such as the following one:
+{
+  &quot;contextElement&quot;: {
+    &quot;attributes&quot;: {
+      &quot;name&quot;: {     
+        &quot;type&quot;: &quot;string&quot;,
+        &quot;value&quot;: &quot;Le Bistro&quot;
+      },
+      &quot;average_scoring&quot;: {
+        &quot;type&quot;: &quot;float&quot;,
+        &quot;value&quot;: &quot;4.2&quot;
+      },
+      &quot;location&quot;: {
+        &quot;type&quot;: &quot;location&quot;,
+        &quot;value&quot;: &quot;40.419697, -3.691281&quot;,
+        &quot;metadatas&quot;: [
+        {
+          &quot;name&quot;: &quot;location&quot;,
+          &quot;type&quot;: &quot;string&quot;,
+          &quot;value&quot;: &quot;WGS84&quot;
+        }
+      },
+      &quot;postal_address&quot;: {
+        &quot;type&quot;: &quot;string&quot;,
+        &quot;value&quot;: &quot;Calle Alcala 57, 28028 Madrid, Spain&quot;
+      },
+      &quot;cousine_type&quot;: {
+        &quot;type&quot;: &quot;string&quot;,
+        &quot;value&quot;: &quot;french&quot;
+      }
+    },
+    &quot;id&quot;: &quot;LeBistro&quot;,
+    &quot;isPattern&quot;: &quot;false&quot;,
+    &quot;type&quot;: &quot;Restaurant&quot;
+  },
+  &quot;statusCode&quot;: {
+    &quot;code&quot;: &quot;200&quot;,
+    &quot;reasonPhrase&quot;: &quot;OK&quot;
+  }
+}</code>
+</pre>
+</div>
