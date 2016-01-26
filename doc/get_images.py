@@ -8,7 +8,7 @@ filename= 'imglist.txt'
 with open(filename, 'r') as myfile:
     content = myfile.read().replace('\n', '')
     ##\((https?://www.fiware.org/wp-content/uploads/.*?\.(?:jpeg|png))\)
-    results = re.findall('\((https?://www.fiware.org/wp-content/uploads/.*?\.(?:jpeg|png))\)', content)
+    results = re.findall('\((https?://www.fiware.org/wp-content/uploads/.*?\.(?:jpeg|png|jpg))\)', content)
 
     for link in results:
         path = re.sub('https?://www.fiware.org/wp-content/', '', link)
