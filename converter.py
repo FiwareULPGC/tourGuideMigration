@@ -38,10 +38,6 @@ def convert_html_files_to_md(directory_html, directory_md):
 			subprocess.call(["pandoc", html, "--from", "html", "--to", "markdown_strict", 
 							 "--output", output_filename])
 
-			break
-
-		break
-
 
 delete_html_files(directory_md)
 convert_html_files_to_md(directory_html, directory_md)
