@@ -62,3 +62,12 @@ pages:
        - 'How to use Xflow for AR applications with XML3D and the Augmented Reality GE': '09_advanced_ux/How to use Xflow for AR applications with XML3D and the Augmented Reality GE.html'
      - '3D graphics on the Web with Three.js': '09_advanced_ux/3D graphics on the Web with Three.js.html'
      - 'Multiuser 3D with WebTundra (Games, Virtual Worlds, Collaborative applications)': '09_advanced_ux/Multiuser 3D with WebTundra (Games, Virtual Worlds, Collaborative applications).html'
+  - 'Hosting your application on a FIWARE Cloud':
+     - 'Hosting your application on a FIWARE Cloud': '10_cloud/Hosting your application on a FIWARE Cloud.html'
+     - 'How to provision and manage your virtual infrastructure on FIWARE Cloud': '10_cloud/How to provision and manage your virtual infrastructure on FIWARE Cloud.html'
+     - 'How to use Object Storage capabilities of FIWARE Cloud': '10_cloud/How to use Object Storage capabilities of FIWARE Cloud.html'
+     - 'How to use Blueprints to manage complex applications hosted on FIWARE Cloud': '10_cloud/How to use Blueprints to manage complex applications hosted on FIWARE Cloud.html'
+     - 'How to invoke FIWARE Cloud capabilities via an API': '10_cloud/How to invoke FIWARE Cloud capabilities via an API.html'
+  - 'FIWARE Tour Guide Application. A tutorial on how to integrate the main FIWARE GEs':
+     - 'FIWARE Tour Guide Application. A tutorial on how to integrate the main FIWARE GEs': '11_tour_guide_app/FIWARE Tour Guide Application. A tutorial on how to integrate the main FIWARE GEs.html'
+
