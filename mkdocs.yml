@@ -11,7 +11,7 @@ pages:
       - 'Geolocated context queries': '01_context/Geolocated context queries.md'
   - 'Connection to the Internet of Things':
      - 'Connection to the Internet of Things': '02_iot/Connection to the Internet of Things.md'
-     - 'Reading data from IoT devices': '02_iot/Connection to the Internet of Things.md'
+     - 'Reading data from IoT devices': '02_iot/Reading data from IoT devices.md'
      - 'Acting upon IoT devices': '02_iot/Acting upon IoT devices.md'
   - 'Real-time processing of context events':
      - 'Real-time processing of context events': '03_real_time_context/Real-time processing of context events.md'
