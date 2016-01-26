@@ -37,6 +37,20 @@ def convert_html_files_to_md(directory_html, directory_md):
 			print html, output_filename
 			subprocess.call(["pandoc", html, "--from", "html", "--to", "markdown_strict", 
 							 "--output", output_filename])
+			change_base_uri(
+				'http://www.fiware.org/wp-content/uploads/',
+				'../uploads/',
+				output_filename)
+
+def change_base_uri(original_prefix, new_prefix, filename):
+	with open(filename, 'r') as myfile:
+	    content = myfile.read()
+	   
+	    n_content = re.sub(original_prefix, new_prefix, content)
+
+	output = open(filename,'w')
+	output.write(n_content)
+	output.close()
 
 
 delete_html_files(directory_md)

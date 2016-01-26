@@ -2,7 +2,7 @@ You can also develop backend applications using FIWARE Account
 authentication. To do so you should use our FIWARE PEP Proxy that allows
 you to validate the requests before sending them to your server:
 
-[![HowToImplementOAuth2InYourApplication7](http://www.fiware.org/wp-content/uploads/2015/04/HowToImplementOAuth2InYourApplication7-1024x521.png)](http://www.fiware.org/wp-content/uploads/2015/04/HowToImplementOAuth2InYourApplication7.png)
+[![HowToImplementOAuth2InYourApplication7](../uploads/2015/04/HowToImplementOAuth2InYourApplication7-1024x521.png)](../uploads/2015/04/HowToImplementOAuth2InYourApplication7.png)
 
 You can download the proxy
 [here](https://github.com/ging/fi-ware-pep-proxy). The instructions to
@@ -54,8 +54,9 @@ headers with user info:
 X-­Nick-­Name: nickname of user in IDM  
  X-­Display­‐Name: display name in IDM
 
-In the FIWARE eLearning platform you will find a
-[webinar](http://edu.fiware.org/course/view.php?id=79)and a detailed
+<span style="line-height: 1.6em;">In the FIWARE eLearning platform you
+will find a [webinar](http://edu.fiware.org/course/view.php?id=79)and a
+detailed
 [tutorial](http://edu.fiware.org/course/view.php?id=63)explaining you
 how to create accounts, applications and manage authorization in your
-applications.
+applications.</span>

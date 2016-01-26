@@ -13,18 +13,21 @@ the data in the FIWARE Store since you will also get the possibility of:
     accept some terms for using it (i.e. you want to offer your data for
     free but you have to ensure that this data is not used with
     commercial purposes).
--   **Charging the users for accessing your data**: there are some
-    conditions (conflicts of interest, security, competence...) that
-    force you to publish data with cost. In that cases, you can use CKAN
-    and the Store together to charge the users for using your data. You
-    are able to choose different payment models:
-    -   **Single payment:** users pay once.
-    -   **Subscription:** users are forced to pay periodically (daily,
-        monthly,...) for using your data. In addition, users will be
-        able to cancel the subscription but they won’t be able to access
-        the data anymore.
-    -   **Pay per use:** users pay based on the amount of information
-        consumed.
+-   <span style="line-height: 1.6em;">**Charging the users for accessing
+    your data**: there are some conditions (conflicts of interest,
+    security, competence...) that force you to publish data with cost.
+    In that cases, you can use CKAN and the Store together to charge the
+    users for using your data. You are able to choose different payment
+    models:</span>
+    -   <span style="line-height: 1.6em;">**Single payment:** users
+        pay once.</span>
+    -   <span style="line-height: 1.6em;">**Subscription:** users are
+        forced to pay periodically (daily, monthly,...) for using
+        your data. In addition, users will be able to cancel the
+        subscription but they won’t be able to access the
+        data anymore.</span>
+    -   <span style="line-height: 1.6em;">**Pay per use:** users pay
+        based on the amount of information consumed.</span>
 
 Once that your data (datasets or context information) is published in
 CKAN, you are able to publish it in the FIWARE Store. You can do it in

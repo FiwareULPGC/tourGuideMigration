@@ -8,7 +8,7 @@ other analysis techniques, may generate rich information useful in
 different application areas including eHealth, smart cities, security
 and defence, entertainment, etc.  
 
-[![4](http://www.fiware.org/wp-content/uploads/2014/11/4.png)](http://www.fiware.org/wp-content/uploads/2014/11/4.png)
+[![4](../uploads/2014/11/4.png)](../uploads/2014/11/4.png)
 
 Incorporating into your application such features may be done using the
 Real-time Multimedia Stream processing GE (reference implementation
@@ -67,10 +67,11 @@ find useful the following information:
 
 -   [What’s WebRTC and what’s a media
     server](http://www.fiware.org/devguides/real-time-processing-of-media-streams/whats-webrtc-and-whats-a-media-server/)
--   [What’s the architecture of a Kurento enabled
-    application](http://www.fiware.org/devguides/real-time-processing-of-media-streams/whats-the-architecture-of-a-kurento-enabled-application/)
--   [How to develop a Kurento enabled
-    application](http://www.fiware.org/devguides/real-time-processing-of-media-streams/how-to-develop-a-kurento-enabled-application/)
+-   [<span style="line-height: 1.6em;">What’s the architecture of a
+    Kurento enabled
+    application</span>](http://www.fiware.org/devguides/real-time-processing-of-media-streams/whats-the-architecture-of-a-kurento-enabled-application/)
+-   [<span style="line-height: 1.6em;">How to develop a Kurento enabled
+    application</span>](http://www.fiware.org/devguides/real-time-processing-of-media-streams/how-to-develop-a-kurento-enabled-application/)
 
  
 

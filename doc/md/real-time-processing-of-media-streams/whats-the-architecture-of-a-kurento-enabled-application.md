@@ -9,11 +9,13 @@ use Kurento Clients in three scenarios:
 
 -   Using the Kurento JavaScript Client directly in a compliant WebRTC
     browser
--   Using the Kurento Java Client in a Java EE Application Server
--   Using the Kurento JavaScript Client in a Node.js server
+-   <span style="line-height: 1.6em;">Using the Kurento Java Client in a
+    Java EE Application Server</span>
+-   <span style="line-height: 1.6em;">Using the Kurento JavaScript
+    Client in a Node.js server</span>
 
-​[![Real time processin media
-stream2](http://www.fiware.org/wp-content/uploads/2015/04/Real-time-processin-media-stream2.png)](http://www.fiware.org/wp-content/uploads/2015/04/Real-time-processin-media-stream2.png)
+<span style="line-height: 1.6em;">​</span>[![Real time processin media
+stream2](../uploads/2015/04/Real-time-processin-media-stream2.png)](../uploads/2015/04/Real-time-processin-media-stream2.png)
 
 Kurento Client’s API is based on the concept of Media Element. A Media
 Element holds a specific media capability. For example, the media
@@ -26,4 +28,4 @@ them, etc. Kurento exposes a rich toolbox of media elements as part of
 its APIs.
 
 [![Real time processin media
-stream3](http://www.fiware.org/wp-content/uploads/2015/04/Real-time-processin-media-stream3.png)](http://www.fiware.org/wp-content/uploads/2015/04/Real-time-processin-media-stream3.png)
+stream3](../uploads/2015/04/Real-time-processin-media-stream3.png)](../uploads/2015/04/Real-time-processin-media-stream3.png)

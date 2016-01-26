@@ -14,12 +14,13 @@ you are a developer or an end user:
     support for pub/sub, “connectors” to a number of FIWARE GEs, etc.)
     and data sources (e.g. data APIs). Once created, Wirecloud fosters
     their shareability and reuse by end users.
--   As an end user, Wirecloud allows you to develop application
-    dashboards without the need of programming skills (e.g.
-    infomediaries, domain experts, etc.). These dashboards are created
-    visually by mashing up widgets and operators, i.e. integrating
-    heterogeneous data, application logic, and UI web components to
-    create value added “instant” applications.
+-   <span style="line-height: 1.6em;">As an end user, Wirecloud allows
+    you to develop application dashboards without the need of
+    programming skills (e.g. infomediaries, domain experts, etc.). These
+    dashboards are created visually by mashing up widgets and
+    operators, i.e. integrating heterogeneous data, application logic,
+    and UI web components to create value added
+    “instant” applications.</span>
 
 The following screenshots pertain to an application dashboard created in
 Wirecloud by a domain expert to manage and operate lamp posts and
@@ -31,9 +32,9 @@ Context Broker and the Object Storage GEris thanks to specialized APIs
 and libraries provided by Wirecloud.
 
 [![Creating application
-dashboards](http://www.fiware.org/wp-content/uploads/2015/04/Creating-application-dashboards-1024x640.png)](http://www.fiware.org/wp-content/uploads/2015/04/Creating-application-dashboards.png)
+dashboards](../uploads/2015/04/Creating-application-dashboards-1024x640.png)](../uploads/2015/04/Creating-application-dashboards.png)
 [![Creating application
-dashboards1](http://www.fiware.org/wp-content/uploads/2015/04/Creating-application-dashboards1-1024x639.png)](http://www.fiware.org/wp-content/uploads/2015/04/Creating-application-dashboards1.png)
+dashboards1](../uploads/2015/04/Creating-application-dashboards1-1024x639.png)](../uploads/2015/04/Creating-application-dashboards1.png)
 
 Wirecloud also offers support for mobile devices, especially for
 tablets, so that some of the widgets in an application mashup can be
@@ -45,7 +46,7 @@ component with better performance and with access to the GPS features of
 the tablet.
 
 [![Creating application
-dashboards2](http://www.fiware.org/wp-content/uploads/2015/04/Creating-application-dashboards2.png)](http://www.fiware.org/wp-content/uploads/2015/04/Creating-application-dashboards2.png)
+dashboards2](../uploads/2015/04/Creating-application-dashboards2.png)](../uploads/2015/04/Creating-application-dashboards2.png)
 
 If you are interested in more details about how to use WireCloud to (a)
 create your application dashboard from pre-existing widgets and

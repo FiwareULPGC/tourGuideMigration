@@ -21,7 +21,7 @@ The following diagram illustrates Advanced Web UI architecture and its
 GEs.
 
 [![Advanced user
-experience](http://www.fiware.org/wp-content/uploads/2015/04/Advanced-user-experience-1024x549.png)](http://www.fiware.org/wp-content/uploads/2015/04/Advanced-user-experience.png)
+experience](../uploads/2015/04/Advanced-user-experience-1024x549.png)](../uploads/2015/04/Advanced-user-experience.png)
 
 The diagram shows how all the GEs from the WebUI chapter fit and can be
 used together.
@@ -57,6 +57,6 @@ WebUI:
         GE](http://www.fiware.org/devguides/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/how-to-use-xflow-for-ar-applications-with-xml3d-and-the-augmented-reality-ge/)
 -   [3D graphics on the Web with
     Three.js](http://www.fiware.org/devguides/providing-an-advanced-user-experience-ux/3d-graphics-on-the-web-with-three-js/)
--   [Multiuser 3D with WebTundra (Games, Virtual Worlds, Collaborative
-    applications)](http://www.fiware.org/devguides/providing-an-advanced-user-experience-ux/multiuser-3d-with-webtundra-games-virtual-worlds-collaborative-applications/)
+-   [Multiuser 3D with WebTundra (Games, Virtual Worlds,
+    Collaborative applications)](http://www.fiware.org/devguides/providing-an-advanced-user-experience-ux/multiuser-3d-with-webtundra-games-virtual-worlds-collaborative-applications/)
 
