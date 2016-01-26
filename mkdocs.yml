@@ -5,7 +5,7 @@ pages:
   - Home: index.md
   - 'Development of context-aware applications':
       - 'Development of context-aware applications': '01_context/Development of context-aware applications.html'
-      - 'Update – query context': '01_context/Update – query context.html'
+#      - 'Update – query context': '01_context/Update – query context.html'
       - 'Connection to context providers': '01_context/Connection to context providers.html'
       - 'Subscription to context changes': '01_context/Subscription to context changes.html'
       - 'Geolocated context queries': '01_context/Geolocated context queries.html'
