@@ -4,11 +4,11 @@ docs_dir: doc/md/
 pages:
   - Home: index.md
   - 'Development of context-aware applications':
-      - 'Development of context-aware applications': '01_context/Development of context-aware applications.md'
-      - 'Update – query context': '01_context/Update - query context.md'
-      - 'Connection to context providers': '01_context/Connection to context providers.md'
-      - 'Subscription to context changes': '01_context/Subscription to context changes.md'
-      - 'Geolocated context queries': '01_context/Geolocated context queries.md'
+      - 'Development of context-aware applications': 'development-context-aware-applications/development-context-aware-applications.md'
+      - 'Update – query context': 'development-context-aware-applications/how-to-update-and-query-context-information.md'
+      - 'Connection to context providers': 'development-context-aware-applications/how-to-connect-to-external-context-providers.md'
+      - 'Subscription to context changes': 'development-context-aware-applications/how-to-subscribe-to-changes-on-context-information.md'
+      - 'Geolocated context queries': 'development-context-aware-applications/how-to-perform-geo-located-queries.md'
   - 'Connection to the Internet of Things':
      - 'Connection to the Internet of Things': 'connection-to-the-internet-of-things/connection-to-the-internet-of-things.md'
      - 'Reading data from IoT devices': 'connection-to-the-internet-of-things/how-to-read-measures-captured-from-iot-devices.md'
