@@ -53,7 +53,7 @@ def change_base_uri(original_prefix, new_prefix, filename):
 	   
 	    n_content = re.sub(original_prefix, new_prefix, content)
 
-	    n_content = n_content.replace("(/markdown-conversion/development-context-aware-applications/)",
+	    n_content = n_content.replace("(/development-context-aware-applications/)",
 	    							  "(/development-context-aware-applications/development-context-aware-applications/)")
 
 	    n_content = n_content.replace("(/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/)",

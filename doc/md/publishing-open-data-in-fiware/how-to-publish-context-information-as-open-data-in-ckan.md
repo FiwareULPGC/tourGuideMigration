@@ -1,7 +1,7 @@
 Publishing and consuming open data is a cornerstone for the development
 of applications and the creation of an innovation ecosystem. Through the
 mechanisms described in the section [Development of context-aware
-applications](/development-context-aware-applications/),
+applications](/development-context-aware-applications/development-context-aware-applications/),
 the Context Broker can be used to publish and consume context
 information. In particular, this information can be indeed open data and
 consumed through the queries and subscriptions APIs (NGSI10). This way,
