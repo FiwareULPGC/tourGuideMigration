@@ -7,7 +7,7 @@ regarding how to create an offering you can refer to the Store
 documentation. The following figures illustrate how to obtain the HTML
 code needed to embed your dashboard in external sites:
 
-[![13](../uploads/2014/11/13.png)](../uploads/2014/11/13.png)
+[![13](http://www.fiware.org/wp-content/uploads/2014/11/13.png)](http://www.fiware.org/wp-content/uploads/2014/11/13.png)
 
 [![How to share, sell or make available your new
-dashboard1](../uploads/2015/04/How-to-share-sell-or-make-available-your-new-dashboard1.png)](../uploads/2015/04/How-to-share-sell-or-make-available-your-new-dashboard1.png)
+dashboard1](http://www.fiware.org/wp-content/uploads/2015/04/How-to-share-sell-or-make-available-your-new-dashboard1.png)](http://www.fiware.org/wp-content/uploads/2015/04/How-to-share-sell-or-make-available-your-new-dashboard1.png)

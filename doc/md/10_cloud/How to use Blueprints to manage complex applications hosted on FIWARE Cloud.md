@@ -17,7 +17,7 @@ Machine instance provisioning. The software packages and their
 configuration are managed by the **Software Deployment and Configuration
 GE**, which is based on (and compatible with) Opscode Chef -- a widely
 used open source software configuration management tool. The combination
-of these GEs, surfaced in a holistic manner via the**PaaS Management
+of these GEs, surfaced in a holistic manner via the **PaaS Management
 GE** (and available in the FIWARE Cloud Portal), provides unique value
 proposition currently not available in other OpenStack-based clouds. It
 is worth noticing that the FIWARE team is working with the OpenStack

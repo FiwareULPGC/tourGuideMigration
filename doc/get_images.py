@@ -14,5 +14,5 @@ with open(filename, 'r') as myfile:
         path = re.sub('https?://www.fiware.org/wp-content/', '', link)
         print link + "-->" + path
         #os.makedirs(path, mode=0x777, exist_ok=True)
-        call(["curl","-L","--create-dirs","-o", path, link])
+        #call(["curl","-L","--create-dirs","-o", path, link])
 
