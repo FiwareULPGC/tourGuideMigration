@@ -48,11 +48,11 @@ pages:
      - 'How to receive events': '07_dashboards/How to receive events.html'
      - 'How to send events': '07_dashboards/How to send events.html'
      - 'How to use other FIWARE GEs from your widgets and operators': '07_dashboards/How to use other FIWARE GEs from your widgets and operators.html'
-  - 'Real-time processing of media streams':
-     - 'Real-time processing of media streams': '08_real_time_media/Real-time processing of media streams.html'
-     - 'What’s WebRTC and what’s a media server': '08_real_time_media/What’s WebRTC and what’s a media server.html'
-     - 'What’s the architecture of a Kurento enabled application': '08_real_time_media/What’s the architecture of a Kurento enabled application.html'
-     - 'How to develop a Kurento enabled application': '08_real_time_media/How to develop a Kurento enabled application.html'
+#  - 'Real-time processing of media streams':
+#     - 'Real-time processing of media streams': '08_real_time_media/Real-time processing of media streams.html'
+#     - 'What’s WebRTC and what’s a media server': '08_real_time_media/What’s WebRTC and what’s a media server.html'
+#     - 'What’s the architecture of a Kurento enabled application': '08_real_time_media/What’s the architecture of a Kurento enabled application.html'
+#     - 'How to develop a Kurento enabled application': '08_real_time_media/How to develop a Kurento enabled application.html'
   - 'Providing an advanced User Experience (UX)':
      - 'Providing an advanced User Experience (UX)': '09_advanced_ux/Providing an advanced User Experience (UX).html'
      - '3D-UI: Interactive 3D graphics and Augmented Reality in any Web browser': '09_advanced_ux/3D-UI: Interactive 3D graphics and Augmented Reality in any Web browser.html'
