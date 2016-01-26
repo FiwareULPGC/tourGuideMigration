@@ -50,8 +50,8 @@ pages:
      - 'How to use other FIWARE GEs from your widgets and operators': '07_dashboards/How to use other FIWARE GEs from your widgets and operators.html'
   - 'Real-time processing of media streams':
      - 'Real-time processing of media streams': '08_real_time_media/Real-time processing of media streams.html'
-     - 'What´s WebRTC and what´s a media server': '08_real_time_media/What is WebRTC and what is a media server.html'
-     - 'What´s the architecture of a Kurento enabled application': '08_real_time_media/What is the architecture of a Kurento enabled application.html'
+     - 'What is WebRTC and what is a media server': '08_real_time_media/What is WebRTC and what is a media server.html'
+     - 'What is the architecture of a Kurento enabled application': '08_real_time_media/What is the architecture of a Kurento enabled application.html'
      - 'How to develop a Kurento enabled application': '08_real_time_media/How to develop a Kurento enabled application.html'
   - 'Providing an advanced User Experience (UX)':
      - 'Providing an advanced User Experience (UX)': '09_advanced_ux/Providing an advanced User Experience (UX).html'
