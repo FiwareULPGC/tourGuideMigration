@@ -36,7 +36,7 @@ pages:
        - 'Offering Datasets Through the WStore interface': '05_open_data/Offering Datasets Through the WStore interface.html'
        - 'Acquiring Datasets Offered in the WStore': '05_open_data/Acquiring Datasets Offered in the WStore.html'
   - 'Big Data analysis of historic context information':
-     - 'Big Data analysis of historic context information': '06_big-data/Big Data analysis of historic context information.html'
+     - 'Big Data analysis of historic context information': '06_big_data/Big Data analysis of historic context information.html'
   - 'Creating application dashboards':
      - 'Creating application dashboards': '07_dashboards/Creating application dashboards.html'
      - 'How to find widgets and other components for your dashboard': '07_dashboards/How to find widgets and other components for your dashboard.html'
