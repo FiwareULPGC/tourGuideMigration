@@ -24,17 +24,17 @@ pages:
      - 'Implementing OAuth2 in apps': 'handling-authorization-and-access-control-to-apis/how-to-implement-oauth2-in-your-applications.md'
      - 'How to send requests to a FIWARE GE': 'handling-authorization-and-access-control-to-apis/how-to-send-requests-to-a-fiware-ge.md'
      - 'How to secure your backend service': 'handling-authorization-and-access-control-to-apis/how-to-secure-your-backend-service.md'
-     - 'How to manage Access Control in FIWARE': 'handling-authorization-and-access-control-to-apis/how-to-manage-access-control-in-fiwar.md'
+     - 'How to manage Access Control in FIWARE': 'handling-authorization-and-access-control-to-apis/how-to-manage-access-control-in-fiware.md'
      - 'References': 'handling-authorization-and-access-control-to-apis/references.md'
   - 'Publishing (Open) Data in FIWARE':
      - 'Publishing (Open) Data in FIWARE': 'publishing-open-data-in-fiware/publishing-open-data-in-fiware.md'
      - 'How to Publish (Open) Datasets in CKAN': 'publishing-open-data-in-fiware/how-to-publish-open-datasets-in-ckan-2.md'
      - 'How to Publish Context Information as (Open) Data in CKAN': 'publishing-open-data-in-fiware/how-to-publish-context-information-as-open-data-in-ckan.md'
      - 'How to Offer Datasets (including Context Information) through the WStore':
-       - 'How to Offer Datasets (including Context Information) through the WStore': 'publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstor/how-to-offer-datasets-including-context-information-through-the-wstor.md'
-       - 'Offering Datasets Directly Through the CKAN Interface': 'publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstor/offering-datasets-directly-through-the-ckan-interface.md'
-       - 'Offering Datasets Through the WStore interface': 'publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstor/offering-datasets-through-the-wstore-interface.md'
-       - 'Acquiring Datasets Offered in the WStore': 'publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstor/acquiring-datasets-offered-in-the-wstore.md'
+       - 'How to Offer Datasets (including Context Information) through the WStore': 'publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/how-to-offer-datasets-including-context-information-through-the-wstore.md'
+       - 'Offering Datasets Directly Through the CKAN Interface': 'publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/offering-datasets-directly-through-the-ckan-interface.md'
+       - 'Offering Datasets Through the WStore interface': 'publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/offering-datasets-through-the-wstore-interface.md'
+       - 'Acquiring Datasets Offered in the WStore': 'publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/acquiring-datasets-offered-in-the-wstore.md'
   - 'Big Data analysis of historic context information': 'big-data-analysis-of-historic-context-information/big-data-analysis-of-historic-context-information.md'
   - 'Creating application dashboards':
      - 'Creating application dashboards': 'creating-application-dashboards/creating-application-dashboards.md'

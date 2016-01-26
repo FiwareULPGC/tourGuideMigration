@@ -14,12 +14,13 @@ you are a developer or an end user:
     support for pub/sub, “connectors” to a number of FIWARE GEs, etc.)
     and data sources (e.g. data APIs). Once created, Wirecloud fosters
     their shareability and reuse by end users.
--   As an end user, Wirecloud allows you to develop application
-    dashboards without the need of programming skills (e.g.
-    infomediaries, domain experts, etc.). These dashboards are created
-    visually by mashing up widgets and operators, i.e. integrating
-    heterogeneous data, application logic, and UI web components to
-    create value added “instant” applications.
+-   <span style="line-height: 1.6em;">As an end user, Wirecloud allows
+    you to develop application dashboards without the need of
+    programming skills (e.g. infomediaries, domain experts, etc.). These
+    dashboards are created visually by mashing up widgets and
+    operators, i.e. integrating heterogeneous data, application logic,
+    and UI web components to create value added
+    “instant” applications.</span>
 
 The following screenshots pertain to an application dashboard created in
 Wirecloud by a domain expert to manage and operate lamp posts and

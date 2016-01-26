@@ -21,7 +21,7 @@ Entities that would be relevant to the NiceEating application are of
 type Restaurant, Client and Rating. For example, when a given user
 scores a restaurant (e.g. in a scale from 0 to 5, “Client1234” scores
 “4” for the “LeBistro” restaurant) the smartphone application plays the
-Context Producer role **creating**a Rating entity by issuing the
+Context Producer role **creating** a Rating entity by issuing the
 following HTTP request :
 
     POST <cb_host>:<cb_port>/v1/contextEntities/type/Rating/id/LeBistro::Client1234
@@ -36,7 +36,7 @@ following HTTP request :
 
 Each time a new Rating entity is created, the average rating for the
 corresponding restaurant is recalculated by the application backend
-which (playing also the role of Context Producer) **updates**the
+which (playing also the role of Context Producer) **updates** the
 Restaurant entity accordingly:
 
     PUT <cb_host>:<cb_port>/v1/contextEntities/type/Restaurant/id/LeBistro/attributes/average_scoring
@@ -46,9 +46,9 @@ Restaurant entity accordingly:
 
 Finally, the user can get the information of a given Restaurant using
 the smartphone application. In that case the application works as
-Context Consumer, **querying**the Restaurant entity. For example, to get
-the average\_scoring attribute, the client application could query for
-it in the following way:
+Context Consumer, **querying** the Restaurant entity. For example, to
+get the average\_scoring attribute, the client application could query
+for it in the following way:
 
     GET <cb_host>:<cb_port>/v1/contextEntities/type/Restaurant/id/LeBistro/attributes/average_scoring
     //getting a JSON response such as the following one:
@@ -164,3 +164,5 @@ following way
         "reasonPhrase": "OK"
       }
     }
+
+

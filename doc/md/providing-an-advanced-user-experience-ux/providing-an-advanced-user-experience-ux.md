@@ -57,6 +57,6 @@ WebUI:
         GE](http://www.fiware.org/devguides/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/how-to-use-xflow-for-ar-applications-with-xml3d-and-the-augmented-reality-ge/)
 -   [3D graphics on the Web with
     Three.js](http://www.fiware.org/devguides/providing-an-advanced-user-experience-ux/3d-graphics-on-the-web-with-three-js/)
--   [Multiuser 3D with WebTundra (Games, Virtual Worlds, Collaborative
-    applications)](http://www.fiware.org/devguides/providing-an-advanced-user-experience-ux/multiuser-3d-with-webtundra-games-virtual-worlds-collaborative-applications/)
+-   [Multiuser 3D with WebTundra (Games, Virtual Worlds,
+    Collaborative applications)](http://www.fiware.org/devguides/providing-an-advanced-user-experience-ux/multiuser-3d-with-webtundra-games-virtual-worlds-collaborative-applications/)
 

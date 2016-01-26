@@ -12,16 +12,21 @@ you will be asked for some additional information:
 -   Visibility: if you choose “Public”, all the users (even those that
     are not logged in) will be able to access the dataset. Otherwise,
     only some selected users will be able to access the dataset.
--   Searchable: you can choose if you want your dataset to be published
-    in the queries performed by the FIWARE Data portal users.
-    -   ​This field is only enabled when “Visibility” is set to
-        “Private”.
-    -   If you create a public dataset, it will be always searchable.
+-   <span style="line-height: 1.6em;">Searchable: you can choose if you
+    want your dataset to be published in the queries performed by the
+    FIWARE Data portal users.</span>
+    -   <span style="line-height: 1.6em;">​</span><span
+        style="line-height: 1.6em;">This field is only enabled when
+        “Visibility” is set to “Private”.</span>
+    -   <span style="line-height: 1.6em;">If you create a public
+        dataset, it will be always searchable.</span>
 -   Allowed Users: the list of users that can access your dataset.
-    -   This field is only enabled when “Visibility” is set to
-        “Private”.​
+    -   <span style="line-height: 1.6em;">This field is only enabled
+        when “Visibility” is set to “Private”.<span
+        style="line-height: 1.6em;">​</span></span>
 
-​​[![HowToPublishDatasheetsInCkan2](../uploads/2015/04/HowToPublishDatasheetsInCkan21.png)](../uploads/2015/04/HowToPublishDatasheetsInCkan21.png)
+<span
+style="line-height: 1.6em;">​​</span>[![HowToPublishDatasheetsInCkan2](../uploads/2015/04/HowToPublishDatasheetsInCkan21.png)](../uploads/2015/04/HowToPublishDatasheetsInCkan21.png)
 
 In the second step you will be asked to upload the data itself. You can
 provide a link or upload a file. Any type of file is allowed, but if you

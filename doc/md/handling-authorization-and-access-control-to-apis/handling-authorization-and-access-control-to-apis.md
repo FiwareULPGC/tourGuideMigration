@@ -51,7 +51,7 @@ GE**](http://catalogue.fiware.org/enablers/access-control-tha-implementation)
 
 The Access Control GE provides XACML-standard-compliant authorization
 services. The OASIS XACML (eXtensible Access Control Markup Language)
-standard [1] is the only existing standard access control language
+standard \[1\] is the only existing standard access control language
 written in XML as of writing. According to the OASIS XACML FAQ, “it
 provides an extremely flexible language for expressing access control
 that can use virtually any sort of information as the basis for
@@ -86,7 +86,7 @@ control in FIWARE check out:
     GE](http://www.fiware.org/devguides/handling-authorization-and-access-control-to-apis/how-to-send-requests-to-a-fiware-ge/)
 -   [How to secure your backend
     service](http://www.fiware.org/devguides/handling-authorization-and-access-control-to-apis/how-to-secure-your-backend-service/)
--   [How to manage Access Control in FIWARE
-    (Cyril)](http://www.fiware.org/devguides/handling-authorization-and-access-control-to-apis/how-to-manage-access-control-in-fiware/)
+-   [How to manage Access Control in
+    FIWARE (Cyril)](http://www.fiware.org/devguides/handling-authorization-and-access-control-to-apis/how-to-manage-access-control-in-fiware/)
 
  

@@ -26,9 +26,10 @@ registry process (POST request) in the following way:
 Any update on this attribute “RawCommand” at the NGSI entity in the
 ContextBroker will send a command to your device.
 
-If the row **"endpoint": "****http://[DEVICE\_IP]:[PORT]"** is declared,
-then your device is supposed to be listening for commands at that URL in
-a synchronous way.
+If the row <span style="color:#FF0000;">**"endpoint": "**</span>**<span
+style="color:#0000FF;">http://\[DEVICE\_IP\]:\[PORT</span><span
+style="color:#FF0000;">\]"</span>** is declared, then your device is
+supposed to be listening for commands at that URL in a synchronous way.
 
 If that enpoint is not declared (if that row does not exist) then yur
 devices is supposed to work in a polling mode and therefore receiving
@@ -45,3 +46,5 @@ request:
     //Example: HTTP GET:
     Headers: {'content-type': 'application/text’; 'X-Auth-Token' : [TOKEN]; "Fiware-Service: OpenIoT”; "Fiware-ServicePath: /"}
     http://130.206.80.40:5371/iot/d?k=[APIKEY]&i=[DEV_ID]
+
+

@@ -26,14 +26,14 @@ offered by the smart restaurant application:
 -   Register customer reviews according to different criteria (service,
     food, etc.).
 -   Real-time control of different parameters at each restaurant
-    location (occupation and temperature (at cuisine and at the dining
-    room)).
+    location (occupation and temperature (at cuisine and at the
+    dining room)).
 -   Short time historic data of the different parameters monitored.
 -   Publication of open data concerning the most relevant information
     about the different restaurant locations.
 -   Web user interface to monitor information about restaurants.
--   Different user profiles (customer,restaurant manager, franchise
-    manager) and functionalities per profile. 
+-   Different user profiles (customer,restaurant manager,
+    franchise manager) and functionalities per profile. 
 
 **OVERALL ARCHITECTURE**
 
@@ -140,7 +140,8 @@ Once done, the user interface will be available at the host configured
 in the docker-compose, which is ‘[devguide](http://devguide)’ by
 default. So you just need to open it in your favourite browser:
 
-http://devguide
+<span
+style="font-family:courier new,courier,monospace;">http://devguide</span>
 
 However, if you only want to play with an individual GE, for example,
 Orion Context Broker, simply type:
@@ -306,3 +307,5 @@ and to deploy the application using the Docker infrastructure provided
 by the [FIWARE Lab](http://lab.fiware.org). Last but not least In the
 near future we will be integrating more GEs. Stay tuned by following our
 Github [repository](https://github.com/Bitergia/fiware-devguide-app)!
+
+

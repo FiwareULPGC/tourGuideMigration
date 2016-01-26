@@ -1,7 +1,7 @@
-A set of example applications is deployed with your instance of XML3D
-when you setup your instance of XML3D via the FI-Lab recipe. The same
-set of example is also available online in the xml3d-examples github
-repository:
+<span style="line-height: 20.7999992370605px;">A set of example
+applications is deployed with your instance of XML3D when you setup your
+instance of XML3D via the FI-Lab recipe. The same set of example is also
+available online in the xml3d-examples github repository:</span>
 
 http://xml3d.github.io/xml3d-examples/
 
