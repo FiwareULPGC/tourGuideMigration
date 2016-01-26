@@ -7,13 +7,13 @@ filters, aggregators, adapters, etc.
 The wiring editor comes with a recommendation system for connections
 that help you to identify compatible endpoints that could be connected.
 
-[![10](uploads/2014/11/10.png)](uploads/2014/11/10.png)
+[![10](http://www.fiware.org/wp-content/uploads/2014/11/10.png)](http://www.fiware.org/wp-content/uploads/2014/11/10.png)
 
 [![How to interconnect widgets and connect them to backend
-resources1](uploads/2015/04/How-to-interconnect-widgets-and-connect-them-to-backend-resources1-1024x352.png)](uploads/2015/04/How-to-interconnect-widgets-and-connect-them-to-backend-resources1.png)
+resources1](http://www.fiware.org/wp-content/uploads/2015/04/How-to-interconnect-widgets-and-connect-them-to-backend-resources1-1024x352.png)](http://www.fiware.org/wp-content/uploads/2015/04/How-to-interconnect-widgets-and-connect-them-to-backend-resources1.png)
 
 Once you have wired all the widgets/operators that compose the
 dashboard.
 
 [![How to interconnect widgets and connect them to backend
-resources2](uploads/2015/04/How-to-interconnect-widgets-and-connect-them-to-backend-resources2.png)](uploads/2015/04/How-to-interconnect-widgets-and-connect-them-to-backend-resources2.png)
+resources2](http://www.fiware.org/wp-content/uploads/2015/04/How-to-interconnect-widgets-and-connect-them-to-backend-resources2.png)](http://www.fiware.org/wp-content/uploads/2015/04/How-to-interconnect-widgets-and-connect-them-to-backend-resources2.png)
