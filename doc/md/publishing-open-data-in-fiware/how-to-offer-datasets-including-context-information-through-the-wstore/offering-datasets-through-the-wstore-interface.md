@@ -14,25 +14,19 @@ In the new form you will have to complete some fields:
 
 -   Name: The name of your dataset (it mustn’t match with the name
     provided in CKAN).
--   <span style="line-height: 1.6em;">Version: The version of the
-    dataset (typically: 1.0)</span>
--   <span style="line-height: 1.6em;">Description: Description of the
-    dataset</span>
--   <span style="line-height: 1.6em;">Content Type: dataset</span>
--   <span style="line-height: 1.6em;">How to provide the resource:
-    Provide resource URL</span>
--   <span style="line-height: 1.6em;">Resource URL: the URL that you get
-    when you create your dataset in the FIWARE Data Portal
-    (typically: https://data.lab.fiware.org/dataset/{dataset\_name}).
-    You can check this URL by accessing your dataset in FIWARE
-    Data Portal.</span>
--   <span style="line-height: 1.6em;">Open Resource: open offerings
-    (those that cannot be acquired) can only contain open resources.
-    However, non-open offerings can contain open resources. (Typically
-    you should disable this checkbox).</span>
+-   Version: The version of the dataset (typically: 1.0)
+-   Description: Description of the dataset
+-   Content Type: dataset
+-   How to provide the resource: Provide resource URL
+-   Resource URL: the URL that you get when you create your dataset in
+    the FIWARE Data Portal (typically:
+    https://data.lab.fiware.org/dataset/{dataset\_name}). You can check
+    this URL by accessing your dataset in FIWARE Data Portal.
+-   Open Resource: open offerings (those that cannot be acquired) can
+    only contain open resources. However, non-open offerings can contain
+    open resources. (Typically you should disable this checkbox).
 
-<span style="line-height: 1.6em;">​</span>[![Offering Datasets Through
-the WStore
+​[![Offering Datasets Through the WStore
 Interface1](/uploads/2015/04/Offering-Datasets-Through-the-WStore-Interface1.png)](/uploads/2015/04/Offering-Datasets-Through-the-WStore-Interface1.png)
 
 When you have registered your dataset as a resource, you will be able to

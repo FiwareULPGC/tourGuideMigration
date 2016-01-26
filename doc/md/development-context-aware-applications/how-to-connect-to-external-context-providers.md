@@ -10,18 +10,17 @@ advantages:
     each source of context. Moreover, if the endpoint for a given source
     of context changes, the change is done at Context Broker GE in a way
     that is transparent for clients.
--   <span style="line-height: 1.6em;">Scalability. When a single Context
-    Broker GE is not enough to manage all the context information,
-    several can be used. Each Context Broker GE (managing a subset of
-    the context) is set as Context Provider in the Context Broker GE
-    acting as single access point. This schema can be applied in a
-    hierarchical way, which GE at different “level”, each level managing
-    finer-grained context subsets.</span>
--   <span style="line-height: 1.6em;">Security. Clients may be not
-    allowed to access directly to Context Providers for
-    security reasons. In that case, the Context Broker GEs (which has
-    the ability to authenticate and authorize requests) acts as security
-    enforcement point.</span>
+-   Scalability. When a single Context Broker GE is not enough to manage
+    all the context information, several can be used. Each Context
+    Broker GE (managing a subset of the context) is set as Context
+    Provider in the Context Broker GE acting as single access point.
+    This schema can be applied in a hierarchical way, which GE at
+    different “level”, each level managing finer-grained context
+    subsets.
+-   Security. Clients may be not allowed to access directly to Context
+    Providers for security reasons. In that case, the Context Broker GEs
+    (which has the ability to authenticate and authorize requests) acts
+    as security enforcement point.
 
 Let’s illustrate with an example based on the NiceEating case. Let’s
 consider an external restaurant booking system that is able to provide

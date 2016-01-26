@@ -10,9 +10,9 @@ between your web application and IDM account server should be:
 [![5](/uploads/2014/11/5.png)](/uploads/2014/11/5.png)
 
 In order to implement this flow you can use an OAuth2 library.
-[Here](http://oauth.net/2/)you will find implementations for PHP, Cocoa,
-iOS, Java, Ruby, Javascript, Python … We have developed a Node.js
-[example](https://github.com/ging/fi-ware-pep-proxy)that you can
+[Here](http://oauth.net/2/) you will find implementations for PHP,
+Cocoa, iOS, Java, Ruby, Javascript, Python … We have developed a Node.js
+[example](https://github.com/ging/fi-ware-pep-proxy) that you can
 download and test following these instructions:
 
 1. Software requirements:  

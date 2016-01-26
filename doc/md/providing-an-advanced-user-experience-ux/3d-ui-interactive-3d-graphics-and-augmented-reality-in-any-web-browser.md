@@ -28,7 +28,7 @@ in implementation and usage. A brief overview of both follows, with more
 details in dedicated sections later and further in the manuals.
 
 With Three.js everything is done in Javascript: you use the API to
-create the scene and add the objects there. Only a single &lt;canvas&gt;
+create the scene and add the objects there. Only a single \<canvas\>
 element is put to the HTML document and even that is done automatically
 by the library. Three.js is the most popular 3D solution on the Web and
 there are huge amounts of examples and demos made with it. It is also
@@ -44,15 +44,15 @@ where needed.
 XML3D.js is the reference implementation of the XML3D specification to
 add 3D support to HTML with a specific set of new tags. This way you can
 add 3D elements to a web page without writing any Javascript. Similar to
-the pre-existing &lt;img&gt; and &lt;video&gt; tags, &lt;mesh&gt; works
-to add a 3D object to the view. The 3D elements are added to the DOM and
-can be manipulated via it like other HTML elements. XML3D.js also
-includes an implementation of XFlow, a new approach for declarative data
-processing. The library also features advanced geometry loading to deal
-with huge amounts of details (millions of polygons) with streaming and
-level of detail techniques (BLAST asset bundle with the POP-buffers
-geometry format). XML3D.js has been lately adopted in some projects in
-the industry as well.
+the pre-existing \<img\> and \<video\> tags, \<mesh\> works to add a 3D
+object to the view. The 3D elements are added to the DOM and can be
+manipulated via it like other HTML elements. XML3D.js also includes an
+implementation of XFlow, a new approach for declarative data processing.
+The library also features advanced geometry loading to deal with huge
+amounts of details (millions of polygons) with streaming and level of
+detail techniques (BLAST asset bundle with the POP-buffers geometry
+format). XML3D.js has been lately adopted in some projects in the
+industry as well.
 
 Finally, the WebTundra bundle integrates 3D-UI with the Synchronization
 GE for creating real-time collaborative applications using WebGL

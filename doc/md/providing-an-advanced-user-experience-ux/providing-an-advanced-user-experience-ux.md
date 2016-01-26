@@ -48,15 +48,15 @@ WebUI:
 -   [3D-UI: Interactive 3D graphics and Augmented Reality in any Web
     browser](/providing-an-advanced-user-experience-ux/3d-ui-interactive-3d-graphics-and-augmented-reality-in-any-web-browser/)
 -   [XML3D: Interactive 3D graphics and Augmented Reality via DOM
-    extensions](/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/)
-    -   [​](/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/)[How
+    extensions](/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/)
+    -   [​](/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/)[How
         to set up a first XML3D
-        scene](/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/how-to-set-up-a-first-xml3d-scene/)
+        scene](/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/how-to-set-up-a-first-xml3d-scene/)
     -   [How to use Xflow for AR applications with XML3D and the
         Augmented Reality
-        GE](/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/how-to-use-xflow-for-ar-applications-with-xml3d-and-the-augmented-reality-ge/)
+        GE](/providing-an-advanced-user-experience-ux/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/xml3d-interactive-3d-graphics-and-augmented-reality-via-dom-extensions/how-to-use-xflow-for-ar-applications-with-xml3d-and-the-augmented-reality-ge/)
 -   [3D graphics on the Web with
     Three.js](/providing-an-advanced-user-experience-ux/3d-graphics-on-the-web-with-three-js/)
--   [Multiuser 3D with WebTundra (Games, Virtual Worlds,
-    Collaborative applications)](/providing-an-advanced-user-experience-ux/multiuser-3d-with-webtundra-games-virtual-worlds-collaborative-applications/)
+-   [Multiuser 3D with WebTundra (Games, Virtual Worlds, Collaborative
+    applications)](/providing-an-advanced-user-experience-ux/multiuser-3d-with-webtundra-games-virtual-worlds-collaborative-applications/)
 

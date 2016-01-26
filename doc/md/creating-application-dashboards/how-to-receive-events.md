@@ -51,4 +51,3 @@ following code:
      
     MashupPlatform.wiring.registerCallback("coord", searchByCoordListener);
 
-

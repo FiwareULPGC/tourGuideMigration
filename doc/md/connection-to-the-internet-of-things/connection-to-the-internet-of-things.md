@@ -27,8 +27,8 @@ it is depicted in the following picture: 
 This simple scenario considers only two Generic Enablers
 implementations:
 
--   **Orion ContextBroker:** That remains as the main front-end
-    for developers. Developers access IoT data as attributes of entities
+-   **Orion ContextBroker:** That remains as the main front-end for
+    developers. Developers access IoT data as attributes of entities
     representing devices and Developers may also send commands to
     devices by updating command-related attributes, providing they have
     access rights for that operation.

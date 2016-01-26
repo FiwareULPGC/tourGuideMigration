@@ -54,9 +54,8 @@ headers with user info:
 X-­Nick-­Name: nickname of user in IDM  
  X-­Display­‐Name: display name in IDM
 
-<span style="line-height: 1.6em;">In the FIWARE eLearning platform you
-will find a [webinar](http://edu.fiware.org/course/view.php?id=79)and a
-detailed
-[tutorial](http://edu.fiware.org/course/view.php?id=63)explaining you
+In the FIWARE eLearning platform you will find a
+[webinar](http://edu.fiware.org/course/view.php?id=79) and a detailed
+[tutorial](http://edu.fiware.org/course/view.php?id=63) explaining you
 how to create accounts, applications and manage authorization in your
-applications.</span>
+applications.

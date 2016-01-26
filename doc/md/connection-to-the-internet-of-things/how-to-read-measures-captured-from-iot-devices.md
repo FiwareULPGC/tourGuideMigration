@@ -76,15 +76,13 @@ operation is needed:
             }]}]}
 
 The important parameters to be defined are:  
- ●    <span style="color:#0000CD;">\[DEV\_ID\]</span> the device
-identifier at IDAS.  
- ●    <span style="color:#0000CD;">\[ENTITY\_ID\]</span> the entity ID
-to be used at the ContextBroker will be “thing:\[ENTITY\_ID\]”  
- ●    <span style="color:#0000CD;">"attributes"</span> they should
-include an alias (a letter representing this attribute).  
- ●    <span style="color:#0000CD;">"static\_attributes"</span> only if
-your device needs to define static attributes (sent in every
-observation)
+ ●    [DEV\_ID] the device identifier at IDAS.  
+ ●    [ENTITY\_ID] the entity ID to be used at the ContextBroker will be
+“thing:[ENTITY\_ID]”  
+ ●    "attributes" they should include an alias (a letter representing
+this attribute).  
+ ●    "static\_attributes" only if your device needs to define static
+attributes (sent in every observation)
 
 **3.     Send Observations related to your IoT device**  
  Sending an observation from IoT devices is extremely efficient and
@@ -112,14 +110,12 @@ the following payload:
 developer with the right access permissions) should be able to use the
 ContextBroker NGSI API to read the NGSI entity assigned to your device. 
 
-The Entity ID will be the following “thing:\[ENTITY\_ID\]”.
+The Entity ID will be the following “thing:[ENTITY\_ID]”.
 
 In our particular example described above, you may check in the public
 ContextBroker (at 130.206.80.40:1026), the
-Entity\_ID=”thing:\[ENTITY\_ID\]” and the attribute “Temperature” with
-the correct updated value. For examples on how to access the
-ContextBroker, please refer to this component section.
+Entity\_ID=”thing:[ENTITY\_ID]” and the attribute “Temperature” with the
+correct updated value. For examples on how to access the ContextBroker,
+please refer to this component section.
 
  
-
-
