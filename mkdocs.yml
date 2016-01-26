@@ -18,3 +18,20 @@ pages:
      - 'How to define a CEP application': '03_real_time_context/How to define a CEP application.html'
      - 'How to administrate the CEP': '03_real_time_context/How to administrate the CEP.html'
      - 'How to send input events to the CEP': '03_real_time_context/How to send input events to the CEP.html'
+  - 'Handling authorization and access control to APIs':
+     - 'Handling authorization and access control to APIs': '04_authorization/Handling authorization and access control to APIs.html'
+     - 'Creating your identity in FIWARE': '04_authorization/Creating your identity in FIWARE.html'
+     - 'Implementing OAuth2 in apps': '04_authorization/Implementing OAuth2 in apps.html'
+     - 'How to send requests to a FIWARE GE': '04_authorization/How to send requests to a FIWARE GE.html'
+     - 'How to secure your backend service': '04_authorization/How to secure your backend service.html'
+     - 'How to manage Access Control in FIWARE': '04_authorization/How to manage Access Control in FIWARE.html'
+     - 'References': '04_authorization/References.html'
+  - 'Publishing (Open) Data in FIWARE':
+     - 'Publishing (Open) Data in FIWARE': '05_open_data/Publishing (Open) Data in FIWARE.html'
+     - 'How to Publish (Open) Datasets in CKAN': '05_open_data/How to Publish (Open) Datasets in CKAN.html'
+     - 'How to Publish Context Information as (Open) Data in CKAN': '05_open_data/How to Publish Context Information as (Open) Data in CKAN.html'
+     - 'How to Offer Datasets (including Context Information) through the WStore':
+       - 'How to Offer Datasets (including Context Information) through the WStore': '05_open_data/How to Offer Datasets (including Context Information) through the WStore.html'
+       - 'Offering Datasets Directly Through the CKAN Interface': '05_open_data/Offering Datasets Directly Through the CKAN Interface.html'
+       - 'Offering Datasets Through the WStore interface': '05_open_data/Offering Datasets Through the WStore interface.html'
+       - 'Acquiring Datasets Offered in the WStore': '05_open_data/Acquiring Datasets Offered in the WStore.html'
