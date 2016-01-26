@@ -9,12 +9,10 @@ use Kurento Clients in three scenarios:
 
 -   Using the Kurento JavaScript Client directly in a compliant WebRTC
     browser
--   <span style="line-height: 1.6em;">Using the Kurento Java Client in a
-    Java EE Application Server</span>
--   <span style="line-height: 1.6em;">Using the Kurento JavaScript
-    Client in a Node.js server</span>
+-   Using the Kurento Java Client in a Java EE Application Server
+-   Using the Kurento JavaScript Client in a Node.js server
 
-<span style="line-height: 1.6em;">​</span>[![Real time processin media
+​[![Real time processin media
 stream2](../uploads/2015/04/Real-time-processin-media-stream2.png)](../uploads/2015/04/Real-time-processin-media-stream2.png)
 
 Kurento Client’s API is based on the concept of Media Element. A Media

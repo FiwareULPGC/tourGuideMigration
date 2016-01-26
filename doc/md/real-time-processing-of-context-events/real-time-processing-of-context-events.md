@@ -45,12 +45,11 @@ examples of event consumers:
     when certain conditions hold on events related to some entities user
     community or produced by a number of devices.
 -   Handling process: a type of event consumer that consumes meaningful
-    events (such as opportunities or threats) and performs a
-    concrete action.
--   <span style="line-height: 1.6em;">The Context Broker GE which can
-    connect as an event consumer to the CEP and forward the events it
-    consumes to all interested applications based on a
-    subscription model.</span>
+    events (such as opportunities or threats) and performs a concrete
+    action.
+-   The Context Broker GE which can connect as an event consumer to the
+    CEP and forward the events it consumes to all interested
+    applications based on a subscription model.
 
 The CEP sends output events to the event consumers in a “push” mode by
 activating their REST API.
@@ -64,23 +63,22 @@ over time. Examples for supported patterns are:
 
 -   Sequence, meaning events need to occur in a specified order for the
     pattern to be detected. E.g., follow a sensor context, and detect if
-    the sensor status was “fixed” and later was “failed” within a
-    time window.
--   Aggregate, compute some aggregation functions on a set of
-    incoming events. E.g., compute the percentage of the sensors events
-    that arrived with a fail status out of all the sensors events
-    arrived in the time window. Alert if the percentage of the failed
-    sensors is higher than 10 percent.
--   <span style="line-height: 1.6em;">Absent, meaning no event holding
-    some condition arrived within the time window for the pattern
-    to match. E.g., alert if within the time window no sensor events
-    arriving from specific source have arrived. This may indicate that
-    the source is down.</span>
--   <span style="line-height: 1.6em;">All, meaning that all the events
-    specified should arrive for the pattern to match. E.g., wait to get
-    status events from all the 4 locations, where each status event
-    arrives with the quantity of reservations. Alert if the total
-    reservations are higher than some threshold.</span>
+    the sensor status was “fixed” and later was “failed” within a time
+    window.
+-   Aggregate, compute some aggregation functions on a set of incoming
+    events. E.g., compute the percentage of the sensors events that
+    arrived with a fail status out of all the sensors events arrived in
+    the time window. Alert if the percentage of the failed sensors is
+    higher than 10 percent.
+-   Absent, meaning no event holding some condition arrived within the
+    time window for the pattern to match. E.g., alert if within the time
+    window no sensor events arriving from specific source have arrived.
+    This may indicate that the source is down.
+-   All, meaning that all the events specified should arrive for the
+    pattern to match. E.g., wait to get status events from all the 4
+    locations, where each status event arrives with the quantity of
+    reservations. Alert if the total reservations are higher than some
+    threshold.
 
 Every pattern is associated with an Event processing context. Event
 processing context groups event instances so that they can be processed
@@ -95,12 +93,11 @@ specifications.
     the events arriving within this time window. E.g., “within 5 seconds
     after sensor events with high value”, “A time window bounded by
     Order-Placed and Order-Delivered events”
--   <span style="line-height: 1.6em;">Segmentation processing context
-    defined a matching criteria based on the attribute values of
-    the events. E.g., “Sensor’s ID”, “Shipment’s ID”, “Building’s ID”.
-    Events that belong to the same matching criteria (e.g., have the
-    same sensor ID) will be processed together within the same
-    processing context partition.</span>
+-   Segmentation processing context defined a matching criteria based on
+    the attribute values of the events. E.g., “Sensor’s ID”, “Shipment’s
+    ID”, “Building’s ID”. Events that belong to the same matching
+    criteria (e.g., have the same sensor ID) will be processed together
+    within the same processing context partition.
 
 If you are interested in more details check out:
 

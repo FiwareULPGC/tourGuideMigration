@@ -67,11 +67,10 @@ find useful the following information:
 
 -   [What’s WebRTC and what’s a media
     server](http://www.fiware.org/devguides/real-time-processing-of-media-streams/whats-webrtc-and-whats-a-media-server/)
--   [<span style="line-height: 1.6em;">What’s the architecture of a
-    Kurento enabled
-    application</span>](http://www.fiware.org/devguides/real-time-processing-of-media-streams/whats-the-architecture-of-a-kurento-enabled-application/)
--   [<span style="line-height: 1.6em;">How to develop a Kurento enabled
-    application</span>](http://www.fiware.org/devguides/real-time-processing-of-media-streams/how-to-develop-a-kurento-enabled-application/)
+-   [What’s the architecture of a Kurento enabled
+    application](http://www.fiware.org/devguides/real-time-processing-of-media-streams/whats-the-architecture-of-a-kurento-enabled-application/)
+-   [How to develop a Kurento enabled
+    application](http://www.fiware.org/devguides/real-time-processing-of-media-streams/how-to-develop-a-kurento-enabled-application/)
 
  
 

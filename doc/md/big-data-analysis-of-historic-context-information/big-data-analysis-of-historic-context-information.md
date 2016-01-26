@@ -30,14 +30,13 @@ an already registered user in FI-LAB to create a Cosmos account. The
 details of your account will be given once registered, typically:
 
 -   Cosmos username: if your FI-LAB username is
-    &lt;my\_user&gt;@mailprovider.com, your cosmos username will
-    be &lt;my\_user&gt;. This will give you a Unix-like account in the
-    Head Node of the global instance, being your user
-    space /home/&lt;my\_user&gt;/.
--   <span style="line-height: 1.6em;"> Cosmos HDFS space: Apart from
-    your Unix-like user space in the Head Node, you will have a HDFS
-    space located at the entire cluster, it will
-    be/user/&lt;my\_user&gt;/</span>
+    \<my\_user\>@mailprovider.com, your cosmos username will be
+    \<my\_user\>. This will give you a Unix-like account in the Head
+    Node of the global instance, being your user space
+    /home/\<my\_user\>/.
+-    Cosmos HDFS space: Apart from your Unix-like user space in the Head
+    Node, you will have a HDFS space located at the entire cluster, it
+    will be/user/\<my\_user\>/
 
 Now you should be ready to login into the Head Node of the global
 instance of Cosmos in FI-LAB, simply using your FI-LAB credentials:  
@@ -144,5 +143,4 @@ If you want to download the HDFS file directly to a remote machine, you
 must use the WebHDFS/HttpFS RESTful API:
 
     [remote-vm]$ curl -i -L "http://cosmos.lab.fi-ware.org:14000/webhdfs/v1/user/$COSMOS_USER/structured/structured_data.txt?op=OPEN&user.name=$COSMOS_USER"
-
 
