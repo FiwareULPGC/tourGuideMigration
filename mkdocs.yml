@@ -3,7 +3,8 @@ site_description: Developer tour guide test
 docs_dir: doc/md/
 pages:
   - Home: index.md
-  - 'Development of context-aware applications': '01_context/Development of context-aware applications.md'
+  - 'Development of context-aware applications':
+      - 'Development of context-aware applications': '01_context/Development of context-aware applications.md'
       - 'Update – query context': '01_context/Update - query context.md'
       - 'Connection to context providers': '01_context/Connection to context providers.md'
       - 'Subscription to context changes': '01_context/Subscription to context changes.md'
