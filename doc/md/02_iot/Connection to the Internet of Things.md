@@ -11,7 +11,7 @@ There are three IoT typical use-case scenarios (combination of IoT GEs) describe
 </p>
 
 <p>
-<a href="http://www.fiware.org/wp-content/uploads/2014/11/3.png"><img alt="3" class="aligncenter size-full wp-image-37954" height="260" src="http://www.fiware.org/wp-content/uploads/2014/11/3.png" width="508" /></a>
+<a href="../uploads/2014/11/3.png"><img alt="3" class="aligncenter size-full wp-image-37954" height="260" src="../uploads/2014/11/3.png" width="508" /></a>
 </p>
 
 <p style="text-align: center;">
