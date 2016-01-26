@@ -1,7 +1,6 @@
-<a href="http://www.fiware.org/wp-content/uploads/2014/11/3.png"><img alt="3" class="aligncenter size-full wp-image-37954" height="260" src="http://www.fiware.org/wp-content/uploads/2014/11/3.png" width="508" /></a>
 [![1](http://www.fiware.org/wp-content/uploads/2014/11/1.png)](http://www.fiware.org/wp-content/uploads/2014/11/1.png)Context
 [![2](http://www.fiware.org/wp-content/uploads/2014/11/2.png)](http://www.fiware.org/wp-content/uploads/2014/11/2.png)
-<a href="http://www.fiware.org/wp-content/uploads/2014/11/3.png"><img alt="3" class="aligncenter size-full wp-image-37954" height="260" src="http://www.fiware.org/wp-content/uploads/2014/11/3.png" width="508" /></a>
+[![3](http://www.fiware.org/wp-content/uploads/2014/11/3.png)](http://www.fiware.org/wp-content/uploads/2014/11/3.png)
 [![HowToCreateYourIdentityInFIWARE1](http://www.fiware.org/wp-content/uploads/2015/04/HowToCreateYourIdentityInFIWARE1.png)](http://www.fiware.org/wp-content/uploads/2015/04/HowToCreateYourIdentityInFIWARE1.png)
 [![6](http://www.fiware.org/wp-content/uploads/2014/11/6.png)](http://www.fiware.org/wp-content/uploads/2014/11/6.png)[![HowToImplementOAuth2InYourApplication9](http://www.fiware.org/wp-content/uploads/2015/04/HowToImplementOAuth2InYourApplication9-300x279.png)](http://www.fiware.org/wp-content/uploads/2015/04/HowToImplementOAuth2InYourApplication9.png)When
 [![HowToImplementOAuth2InYourApplication11](http://www.fiware.org/wp-content/uploads/2015/04/HowToImplementOAuth2InYourApplication11.png)](http://www.fiware.org/wp-content/uploads/2015/04/HowToImplementOAuth2InYourApplication11.png)
@@ -18,7 +17,7 @@ WStore3](http://www.fiware.org/wp-content/uploads/2015/04/Acquiring-Datasets-Off
 WStore4](http://www.fiware.org/wp-content/uploads/2015/04/Acquiring-Datasets-Offered-in-the-WStore4.png)](http://www.fiware.org/wp-content/uploads/2015/04/Acquiring-Datasets-Offered-in-the-WStore4.png)
 WStore5](http://www.fiware.org/wp-content/uploads/2015/04/Acquiring-Datasets-Offered-in-the-WStore5.png)](http://www.fiware.org/wp-content/uploads/2015/04/Acquiring-Datasets-Offered-in-the-WStore5.png)
 [![HowToPublishDatasheetsInCkan1](http://www.fiware.org/wp-content/uploads/2015/04/HowToPublishDatasheetsInCkan1-1024x485.png)](http://www.fiware.org/wp-content/uploads/2015/04/HowToPublishDatasheetsInCkan1.png)
-​​[![HowToPublishDatasheetsInCkan2](http://www.fiware.org/wp-content/uploads/2015/04/HowToPublishDatasheetsInCkan21.png)](http://www.fiware.org/wp-content/uploads/2015/04/HowToPublishDatasheetsInCkan21.png)
+style="line-height: 1.6em;">​​</span>[![HowToPublishDatasheetsInCkan2](http://www.fiware.org/wp-content/uploads/2015/04/HowToPublishDatasheetsInCkan21.png)](http://www.fiware.org/wp-content/uploads/2015/04/HowToPublishDatasheetsInCkan21.png)
 [![HowToPublishDatasheetsInCkan3](http://www.fiware.org/wp-content/uploads/2015/04/HowToPublishDatasheetsInCkan3.png)](http://www.fiware.org/wp-content/uploads/2015/04/HowToPublishDatasheetsInCkan3.png)
 [![HowToPublishDatasheetsInCkan4](http://www.fiware.org/wp-content/uploads/2015/04/HowToPublishDatasheetsInCkan4.png)](http://www.fiware.org/wp-content/uploads/2015/04/HowToPublishDatasheetsInCkan4.png)
 [![OfferingDatasetsDirectlyThrough1](http://www.fiware.org/wp-content/uploads/2015/04/OfferingDatasetsDirectlyThrough1.png)](http://www.fiware.org/wp-content/uploads/2015/04/OfferingDatasetsDirectlyThrough1.png)
