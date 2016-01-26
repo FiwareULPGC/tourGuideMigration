@@ -39,7 +39,7 @@ def convert_html_files_to_md(directory_html, directory_md):
 							 "--output", output_filename])
 			change_base_uri(
 				'http://www.fiware.org/wp-content/uploads/',
-				'../uploads/',
+				'/uploads/',
 				output_filename)
 
 			change_base_uri(

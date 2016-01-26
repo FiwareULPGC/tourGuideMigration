@@ -15,7 +15,7 @@ use Kurento Clients in three scenarios:
     Client in a Node.js server</span>
 
 <span style="line-height: 1.6em;">​</span>[![Real time processin media
-stream2](../uploads/2015/04/Real-time-processin-media-stream2.png)](../uploads/2015/04/Real-time-processin-media-stream2.png)
+stream2](/uploads/2015/04/Real-time-processin-media-stream2.png)](/uploads/2015/04/Real-time-processin-media-stream2.png)
 
 Kurento Client’s API is based on the concept of Media Element. A Media
 Element holds a specific media capability. For example, the media
@@ -28,4 +28,4 @@ them, etc. Kurento exposes a rich toolbox of media elements as part of
 its APIs.
 
 [![Real time processin media
-stream3](../uploads/2015/04/Real-time-processin-media-stream3.png)](../uploads/2015/04/Real-time-processin-media-stream3.png)
+stream3](/uploads/2015/04/Real-time-processin-media-stream3.png)](/uploads/2015/04/Real-time-processin-media-stream3.png)
