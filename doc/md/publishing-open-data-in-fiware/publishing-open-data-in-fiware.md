@@ -12,15 +12,15 @@ If you are interested in more details about how to publish open data,
 check out:
 
 -   [How to Publish Context Information as (Open) Data in
-    CKAN](http://www.fiware.org/devguides/publishing-open-data-in-fiware/how-to-publish-context-information-as-open-data-in-ckan/)
+    CKAN](/publishing-open-data-in-fiware/how-to-publish-context-information-as-open-data-in-ckan/)
 -   [How to Publish (Open) Datasets in
-    CKAN](http://www.fiware.org/devguides/publishing-open-data-in-fiware/how-to-publish-open-datasets-in-ckan-2/)
+    CKAN](/publishing-open-data-in-fiware/how-to-publish-open-datasets-in-ckan-2/)
 -   [How to Offer Datasets (including Context Information) through the
-    WStore](http://www.fiware.org/devguides/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/)
+    WStore](/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/)
     -   [Offering Datasets Directly Through the CKAN
-        Interface](http://www.fiware.org/devguides/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/offering-datasets-directly-through-the-ckan-interface/)
+        Interface](/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/offering-datasets-directly-through-the-ckan-interface/)
     -   [Offering Datasets Through the WStore
-        interface](http://www.fiware.org/devguides/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/offering-datasets-through-the-wstore-interface/)
+        interface](/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/offering-datasets-through-the-wstore-interface/)
     -   [Acquiring Datasets Offered in the
-        WStore](http://www.fiware.org/devguides/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/acquiring-datasets-offered-in-the-wstore/)
+        WStore](/publishing-open-data-in-fiware/how-to-offer-datasets-including-context-information-through-the-wstore/acquiring-datasets-offered-in-the-wstore/)
 

@@ -105,9 +105,9 @@ specifications.
 If you are interested in more details check out:
 
 -   [How to define a CEP
-    application](http://www.fiware.org/devguides/real-time-processing-of-context-events/how-to-define-a-cep-application/)
+    application](/real-time-processing-of-context-events/how-to-define-a-cep-application/)
 -   [How to administrate the
-    CEP ](http://www.fiware.org/devguides/real-time-processing-of-context-events/how-to-administrate-the-cep/)
+    CEP ](/real-time-processing-of-context-events/how-to-administrate-the-cep/)
 -   [How to send input events to the
-    CEP](http://www.fiware.org/devguides/real-time-processing-of-context-events/how-to-send-input-events-to-the-cep/)
+    CEP](/real-time-processing-of-context-events/how-to-send-input-events-to-the-cep/)
 

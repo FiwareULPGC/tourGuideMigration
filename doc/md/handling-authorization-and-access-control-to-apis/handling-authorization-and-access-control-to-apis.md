@@ -79,14 +79,14 @@ Point) in XACML terms.
 control in FIWARE check out:
 
 -   [How to create your identity in
-    FIWARE](http://www.fiware.org/devguides/handling-authorization-and-access-control-to-apis/how-to-create-your-identity-in-fiware/)
+    FIWARE](/handling-authorization-and-access-control-to-apis/how-to-create-your-identity-in-fiware/)
 -   [How to implement OAuth2 in your
-    applications](http://www.fiware.org/devguides/handling-authorization-and-access-control-to-apis/how-to-implement-oauth2-in-your-applications/)
+    applications](/handling-authorization-and-access-control-to-apis/how-to-implement-oauth2-in-your-applications/)
 -   [How to send requests to a FIWARE
-    GE](http://www.fiware.org/devguides/handling-authorization-and-access-control-to-apis/how-to-send-requests-to-a-fiware-ge/)
+    GE](/handling-authorization-and-access-control-to-apis/how-to-send-requests-to-a-fiware-ge/)
 -   [How to secure your backend
-    service](http://www.fiware.org/devguides/handling-authorization-and-access-control-to-apis/how-to-secure-your-backend-service/)
+    service](/handling-authorization-and-access-control-to-apis/how-to-secure-your-backend-service/)
 -   [How to manage Access Control in
-    FIWARE (Cyril)](http://www.fiware.org/devguides/handling-authorization-and-access-control-to-apis/how-to-manage-access-control-in-fiware/)
+    FIWARE (Cyril)](/handling-authorization-and-access-control-to-apis/how-to-manage-access-control-in-fiware/)
 
  

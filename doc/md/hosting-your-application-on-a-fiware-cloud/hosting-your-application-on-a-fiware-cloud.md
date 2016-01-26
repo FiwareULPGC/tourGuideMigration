@@ -53,13 +53,13 @@ You can find more details on how to use the different FIWARE Cloud
 capabilities in the following sub-sections:
 
 -   [How to provision and manage your virtual infrastructure on FIWARE
-    Cloud](http://www.fiware.org/devguides/hosting-your-application-on-a-fiware-cloud/how-to-provision-and-manage-your-virtual-infrastructure-on-fiware-cloud/)
+    Cloud](/hosting-your-application-on-a-fiware-cloud/how-to-provision-and-manage-your-virtual-infrastructure-on-fiware-cloud/)
 -   [How to use Object Storage capabilities of FIWARE
-    Cloud](http://www.fiware.org/devguides/hosting-your-application-on-a-fiware-cloud/how-to-use-object-storage-capabilities-of-fiware-cloud/)
+    Cloud](/hosting-your-application-on-a-fiware-cloud/how-to-use-object-storage-capabilities-of-fiware-cloud/)
 -   [How to use Blueprints to manage complex applications hosted on
     FIWARE
-    Cloud](http://www.fiware.org/devguides/hosting-your-application-on-a-fiware-cloud/how-to-use-blueprints-to-manage-complex-applications-hosted-on-fiware-cloud/)
+    Cloud](/hosting-your-application-on-a-fiware-cloud/how-to-use-blueprints-to-manage-complex-applications-hosted-on-fiware-cloud/)
 -   [How to invoke FIWARE Cloud capabilities via an
-    API](http://www.fiware.org/devguides/hosting-your-application-on-a-fiware-cloud/how-to-invoke-fiware-cloud-capabilities-via-an-api/)
+    API](/hosting-your-application-on-a-fiware-cloud/how-to-invoke-fiware-cloud-capabilities-via-an-api/)
 
  

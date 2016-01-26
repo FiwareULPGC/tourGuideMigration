@@ -42,6 +42,11 @@ def convert_html_files_to_md(directory_html, directory_md):
 				'../uploads/',
 				output_filename)
 
+			change_base_uri(
+				'http://www.fiware.org/devguides/',
+				'/',
+				output_filename)
+
 def change_base_uri(original_prefix, new_prefix, filename):
 	with open(filename, 'r') as myfile:
 	    content = myfile.read()

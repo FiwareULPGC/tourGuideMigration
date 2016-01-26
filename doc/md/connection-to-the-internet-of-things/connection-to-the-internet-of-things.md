@@ -60,8 +60,8 @@ options.
 Things, keep on reading:
 
 -   [How to read measures captured from IoT
-    devices](http://www.fiware.org/devguides/connection-to-the-internet-of-things/how-to-read-measures-captured-from-iot-devices/) 
+    devices](/connection-to-the-internet-of-things/how-to-read-measures-captured-from-iot-devices/) 
 -   [How to act upon IoT
-    devices](http://www.fiware.org/devguides/connection-to-the-internet-of-things/how-to-act-upon-iot-devices/)
+    devices](/connection-to-the-internet-of-things/how-to-act-upon-iot-devices/)
 
  

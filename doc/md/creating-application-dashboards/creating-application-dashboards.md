@@ -53,23 +53,23 @@ create your application dashboard from pre-existing widgets and
 operators or (b) develop these widgets and operators check out:
 
 -   [How to find widgets and other components for your
-    dashboard](http://www.fiware.org/devguides/creating-application-dashboards/how-to-find-widgets-and-other-components-for-your-dashboard/)
+    dashboard](/creating-application-dashboards/how-to-find-widgets-and-other-components-for-your-dashboard/)
 -   [How to create your application dashboard from these building
-    blocks](http://www.fiware.org/devguides/creating-application-dashboards/how-to-create-your-application-dashboard-from-these-building-blocks/)
+    blocks](/creating-application-dashboards/how-to-create-your-application-dashboard-from-these-building-blocks/)
 -   [How to interconnect widgets and connect them to backend
-    resources](http://www.fiware.org/devguides/creating-application-dashboards/how-to-interconnect-widgets-and-connect-them-to-backend-resources/)
+    resources](/creating-application-dashboards/how-to-interconnect-widgets-and-connect-them-to-backend-resources/)
 -   [How to share, sell or make available your new
-    dashboard](http://www.fiware.org/devguides/creating-application-dashboards/how-to-share-sell-or-make-available-your-new-dashboard/)
+    dashboard](/creating-application-dashboards/how-to-share-sell-or-make-available-your-new-dashboard/)
 -   [How to develop new widgets and
-    operators](http://www.fiware.org/devguides/creating-application-dashboards/how-to-develop-new-widgets-and-operators/)
+    operators](/creating-application-dashboards/how-to-develop-new-widgets-and-operators/)
 -   [How to make AJAX requests to external
-    services](http://www.fiware.org/devguides/creating-application-dashboards/how-to-make-ajax-requests-to-external-services/)
+    services](/creating-application-dashboards/how-to-make-ajax-requests-to-external-services/)
 -   [How to receive
-    events](http://www.fiware.org/devguides/creating-application-dashboards/how-to-receive-events/)
+    events](/creating-application-dashboards/how-to-receive-events/)
 -   [How to send
-    events](http://www.fiware.org/devguides/creating-application-dashboards/how-to-send-events/)
+    events](/creating-application-dashboards/how-to-send-events/)
 -   [How to use other FIWARE GEs from your widgets and
-    operators](http://www.fiware.org/devguides/creating-application-dashboards/how-to-use-other-fiware-ges-from-your-widgets-and-operators/)
+    operators](/creating-application-dashboards/how-to-use-other-fiware-ges-from-your-widgets-and-operators/)
 
  
 
