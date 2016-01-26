@@ -9,7 +9,7 @@ pages:
 #      - 'Connection to context providers': '01_context/Connection to context providers.md'
 #      - 'Subscription to context changes': '01_context/Subscription to context changes.md'
 #      - 'Geolocated context queries': '01_context/Geolocated context queries.md'
- - 'Connection to the Internet of Things':
+  - 'Connection to the Internet of Things':
      - 'Connection to the Internet of Things': '02_iot/Connection to the Internet of Things.md'
      - 'Reading data from IoT devices': '02_iot/Connection to the Internet of Things.md'
      - 'Acting upon IoT devices': '02_iot/Acting upon IoT devices.md'
